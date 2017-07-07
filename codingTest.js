@@ -9,8 +9,7 @@ function imageChange(){
 
   
    
-
-    if(image_tracker == 0){
+if(image_tracker == 0){
        $('#interval-image').hide();
       $('#interval-image').fadeIn(500);
        $('#interval-image').attr('src', 'https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/19436250_100501617256984_4799286182712180736_n.jpg')
@@ -31,14 +30,13 @@ function imageChange(){
        
   $('#interval-image').hide();
       $('#interval-image').fadeIn(500);
-      $('#interval-image').attr('src', 'https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/19120672_138833393342644_1357844242659016704_n.jpg'); 
+      $('#interval-image').attr('src', 'scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/13473204_1035946866459823_1251717424_n.jpg'); 
    
     image_tracker =0;
   }
  
 
 }
-  
                 
                 
 
