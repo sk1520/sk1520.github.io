@@ -9,7 +9,8 @@ function imageChange(){
 
   
    
-if(image_tracker == 0){
+
+    if(image_tracker == 0){
        $('#interval-image').hide();
       $('#interval-image').fadeIn(500);
        $('#interval-image').attr('src', 'https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/19436250_100501617256984_4799286182712180736_n.jpg')
@@ -37,6 +38,7 @@ if(image_tracker == 0){
  
 
 }
+  
                 
                 
 
