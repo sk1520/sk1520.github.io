@@ -44,6 +44,6 @@ function imageChange(){
 
 
 $(function() {
-    setInterval( 'imageChange()', 8000);
+    setInterval( 'imageChange()', 3000);
     
 });
