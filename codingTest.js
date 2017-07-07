@@ -31,7 +31,7 @@ function imageChange(){
        
   $('#interval-image').hide();
       $('#interval-image').fadeIn(500);
-      $('#interval-image').attr('src', 'scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/13473204_1035946866459823_1251717424_n.jpg'); 
+      $('#interval-image').attr('src', 'https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/19120672_138833393342644_1357844242659016704_n.jpg'); 
    
     image_tracker =0;
   }
