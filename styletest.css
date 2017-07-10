@@ -1,13 +1,13 @@
 
-body{  /* removes the default margin and paddings and sets the background */
-  /* background-image:url('https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/19367615_1892480557681308_1451688882939625472_n.jpg');
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:cover;
-  background-attachment:fixed;*/
+*{
+	padding:0;
+	margin: 0;
+}
+body, html{  /* removes the default margin and paddings and sets the background */
+  
   margin:0;
   padding:0;
-  
+ 
   background-color: #FFF1F3;	
 }
 a{					/* removes the default underline from anchor links and gives the color to the text */
@@ -15,7 +15,7 @@ a{					/* removes the default underline from anchor links and gives the color to
   text-decoration:none;}
 
 hr{ 				/* horizantal line */
-	height:1px;
+	 height:1px;
     display: block;
     margin: 0.5em auto;
 
@@ -28,7 +28,33 @@ hr{ 				/* horizantal line */
   
 }
 
+#wrapper{
+	min-height: 100%;
 
+}
+
+#content{
+	min-height: 100%;
+
+	padding-bottom: 100px;
+	
+	
+}
+
+
+#footer{
+
+	height:80px;
+	width: 100%;
+	text-align: center;
+	background-color: #231E22;
+	color:white;
+	position:absolute;
+
+	 margin-top: -80px;
+	 clear:both;
+
+}
 
 
 
@@ -37,27 +63,33 @@ hr{ 				/* horizantal line */
 
 
 
-#logo{
-  
+.img-logo a img{
+  position:relative;
   padding:0;
-  margin:auto;
-  border-style:solid;
+
+  float:left;
+  left:4em;
   width: 23%;
   border-radius:50%;
   border:2px solid #fcf4e8;
   text-align:center;
   
+  
 }
+.img-logo a{
+     
+position: relative;    
+z-index: 1;     
+  
+}
+
 
 .nav-bar{
   position:relative;
   width:100%;
 	background-color: #231E22;
   padding:.2% 0 .2% 0;
-  margin:0 auto;
- 
- 
-  
+  margin:0 auto; 
 }
 .nav-bar div{
  
@@ -65,14 +97,14 @@ hr{ 				/* horizantal line */
   text-align:center;
   margin:auto;
   
+  
  
 }
 
 .menu-buttons li{
-  display:inline-block;
-    
-    
+  display:inline-block;   
 }
+
 .menu-buttons li a:hover, .social-media-icons a:hover{
  color:grey;
   
@@ -82,8 +114,9 @@ hr{ 				/* horizantal line */
 .container{
   position:absolute;
   left:0;
-  
+ 
   width:100%;
+ 
  
   
   
@@ -93,10 +126,11 @@ hr{ 				/* horizantal line */
 .menu{
  position:relative;
   left:5%;
+  line-height:69.5px;
   
-  line-height:34px;
   margin:auto;
-  width:65%;
+  width:60%;
+  
   
 }
 
@@ -106,7 +140,7 @@ hr{ 				/* horizantal line */
   line-height:69.5px;
   font-size:1.4em;
   right:1%;
-  
+ 
    
   word-spacing:2.5em;
   
@@ -132,6 +166,7 @@ hr{ 				/* horizantal line */
   
   
 }
+/*---------------------------------------------------------------------------------------------*/
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -140,7 +175,7 @@ hr{ 				/* horizantal line */
 }
 
 h1{
-	font-family: Arial,Helvetica,sans-serif;
+	  font-family: Arial,Helvetica,sans-serif;
     font-weight: 700;
     font-size: 32px;
     letter-spacing: 0em;
@@ -156,15 +191,15 @@ h1{
 
 
 .par-image-container{
+  position:relative;
  
-  width:75%;
+  width:60%;
   margin:auto;
-  overflow: hidden;
 
 }
 
 .container-par h3{
-	    font-family: Arial,Helvetica,sans-serif;
+	font-family: Arial,Helvetica,sans-serif;
     font-weight: 700;
     letter-spacing: 0em;
     line-height: 1.2em;
@@ -179,18 +214,19 @@ h1{
 }
 
 
+
 .image-container{
-  
-  width:100%;
-  height:100%;
-  margin:auto;
   overflow: hidden;
+  border:3px solid black;
+  width: 100%;
+  height: 88%;
+    margin:auto;
+  background:#dbdbdb;
 }
 
 .image-container img{
   border-style:solid;
-  height:100%;
-  width:75%;
+  width:76%;
   margin:auto;
   display:block;
 }
