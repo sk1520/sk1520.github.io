@@ -235,3 +235,42 @@ h1{
   margin:auto;
   display:block;
 }
+
+
+/* Phone website */
+
+@media screen and (max-width: 450px){
+	
+
+	.mobile-menu{
+		border-color: white;
+		position: relative;
+		top:15px;
+		right:20px;
+
+
+	}
+
+	.mobile-menu div{
+		display: block;
+	
+	border-right-color: white;
+    width: 35px;
+    height: 5px;
+    background-color: pink;
+    margin: 8px 0;
+}
+	 .social-media-icons a, .menu li{
+		display: none;
+	}
+
+
+.nav-bar{
+  position:relative;
+  width:100%;
+	background-color: #231E22;
+  padding:.2% 0 .2% 0;
+  margin:0 auto; 
+}
+
+}
