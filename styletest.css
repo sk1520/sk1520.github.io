@@ -127,7 +127,7 @@ z-index: 1;
  position:relative;
   left:5%;
   line-height:69.5px;
-  
+  border-color: red;
   margin:auto;
   width:60%;
   
@@ -269,8 +269,9 @@ h1{
   position:relative;
   width:100%;
 	background-color: #231E22;
+	width: auto;
   padding:.0;
-  margin:0 auto; 
+  margin:0; 
 }
 
 }
