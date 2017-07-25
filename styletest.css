@@ -276,24 +276,32 @@ h1{
 
 .image-container{
 	position: relative;
-  overflow: hidden;
+  overflow: visible;
  /*border-style:solid;*/
  border-style: none;
-  width: 350px;
-  height: 300px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
     margin:auto;
  /* background-color: rgba(153, 73, 70, 0.08);*/
  background: none;
   padding-bottom: 1.3em;
-  right: 50px;
+  right: 15%;
+  
 }
 .image-container img{
   border-style:solid;
-  width:300px;
+  width:350px;
   height: 320px;
   margin:auto;
   display:block;
 }
 
+.container-par{
+	width: 100%;
+	height: 31%;
+	text-align: justify;
+	overflow: scroll;
+}
 	
 }
