@@ -28,6 +28,10 @@ hr{ 				/* horizantal line */
   
 }
 
+
+.sidebar{
+	display:none;
+}
 #wrapper{
 	min-height: 100%;
 
@@ -241,62 +245,36 @@ h1{
 
 @media screen and (max-width: 890px){
 	
-.mobile-menu {
-    display: inline-block;
-    cursor: pointer;
-    position: relative;
-}
-.mobile-menu div{
-	display: block;
-	 width: 35px;
-    height: 5px;
-    background-color: pink;
-    margin: 8px 0;
-    transition: 0.4s;
-}
-
-
-
-/* Rotate first bar */
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
-}
-
-/* Fade out the second bar */
-.change .bar2 {
-    opacity: 0;
-}
-
-/* Rotate last bar */
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-}
-
-
-/*-----------------------------------------------------------------------*/
-	/*.mobile-menu{
-		border-color: white;
-		position: relative;
-		top:15px;
-		right:0.51em;
-
-
-	}
-
-	.mobile-menu div{
+	.sidebar{
 		display: block;
-	
-	border-right-color: white;
-    width: 35px;
-    height: 5px;
-    background-color: pink;
-    margin: 8px 0;
+		position: fixed;
+		top: 0;
+		right: 0;
+		background:grey;
+		width: 250px;
+		height: 100%;
+		transition: 1s;
+	}
+.sidebar ul{
+	margin: 0;
+	padding: 20px 0;
 }
-	 .social-media-icons a, .menu li{
-		display: none;
-	}*/
+
+.sidebar ul li{
+	list-style: none;
+}
+
+.sidebar ul li a{
+	padding: 10px 20px;
+	color: pink;
+	display: block;
+	text-decoration: none;
+}
+
+
+
+
+
 	.social-media-icons a, .menu li{
 		display: none;
 }
