@@ -252,7 +252,7 @@ h1{
 		display: block;
 		position: fixed;
 		top: 0;
-		right: -249px;
+		right: -250px;
 		background:#231E22;
 		width: 250px;
 		height: 100%;
@@ -312,14 +312,30 @@ h1{
 
 }
 
+.sidebarBtn.toggle span{
+	background: transparent;
+}
+
+.sidebarBtn.toggle span:before{
+top: 0;
+transform: rotate(45deg);
+
+}
+
+.sidebarBtn.toggle span:after{
+	top:0;
+	transform: rotate(-45deg);
+}
+
+
 .sidebarBtn span {
 	display: block;
-	width: 100%;
+	width: 90%;
 	height: 5px;
 	background-color: pink;
 	position: absolute;
 	top: 35px;
-	transition: .3s;
+	transition: .10s;
 }
 
 .sidebarBtn span:before{

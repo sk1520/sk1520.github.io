@@ -45,6 +45,7 @@ $(function() {
 
     $('.sidebarBtn').off('click').on('click',function(){
       $('.sidebar').toggleClass('active');
+      $(this).toggleClass('toggle');
     });
  
 
