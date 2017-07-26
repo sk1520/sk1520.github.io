@@ -35,12 +35,16 @@ function imageChange(){
  
 
 }
-  
+
                 
-                
+            function myFunction(x) {
+    x.classList.toggle("change");
+}      
 
 
 $(function() {
     setInterval( 'imageChange()', 3000);
     
+ 
+
 });
