@@ -91,7 +91,7 @@ z-index: 1;
 .nav-bar{
   position:relative;
   width:100%;
-	background-color: #231E22;
+  background-color: #231E22;
   padding:.2% 0 .2% 0;
   margin:0 auto; 
 }
@@ -128,7 +128,7 @@ z-index: 1;
 }
   
 .menu{
- position:relative;
+  position:relative;
   left:5%;
   line-height:69.5px;
   border-color: red;
@@ -139,7 +139,7 @@ z-index: 1;
 }
 
 .social-media-icons {
- float:right;
+  float:right;
   position:relative;
   line-height:69.5px;
   font-size:1.4em;
@@ -250,10 +250,26 @@ h1{
 		position: fixed;
 		top: 0;
 		right: 0;
-		background:grey;
+		background:#231E22;
 		width: 250px;
 		height: 100%;
 		transition: 1s;
+		opacity: 1;
+		z-index: 1;
+	}
+
+	.mobile-menu-buttons{
+	font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0em;
+    font-family: motor;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .17em;
+    text-transform: uppercase;
+    word-spacing: 2.5em;
 	}
 .sidebar ul{
 	margin: 0;
@@ -266,7 +282,7 @@ h1{
 
 .sidebar ul li a{
 	padding: 10px 20px;
-	color: pink;
+	color: #fff;
 	display: block;
 	text-decoration: none;
 }
