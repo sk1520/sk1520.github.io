@@ -37,14 +37,15 @@ function imageChange(){
 }
 
                 
-            function myFunction(x) {
-    x.classList.toggle("change");
-}      
-
+          
 
 $(function() {
     setInterval( 'imageChange()', 3000);
     
+
+    $('.sidebarBtn').off('click').on('click',function(){
+      $('.sidebar').toggleClass('active');
+    });
  
 
 });
