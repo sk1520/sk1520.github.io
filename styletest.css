@@ -247,18 +247,18 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 /* Phone website--------------------------------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 890px){ 	/*    sets to activate the css when screen is equal to or less than the pixels set                                     */
+@media screen and (max-width: 8900px){ 	/*    sets to activate the css when screen is equal to or less than the pixels set                                     */
 	
 	.sidebar{		/* 	side bar container				*/
 		display: block;
 		position: fixed;
 		top: 0;
-		right: -250px;			/* 	puts the container outside the screen so it can later be called by javascript and slide it back in when clicked				*/
+		right: -100%;			/* 	puts the container outside the screen so it can later be called by javascript and slide it back in when clicked				*/
 		background:#231E22;
-		width: 250px;
+		width: 100%;
 		height: 100%;
 		transition: 1s; /* 		seconds to transition in			*/
-		opacity: 1;
+		
 		z-index: 1;
 	}
 	.active{			/* 	css Class and is not in html, it is called by jquery to slide back in the sidebar when user clicks the menu hamburger				*/
@@ -281,22 +281,35 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	}
 .sidebar ul{		/* 			styles the unordered list and positions it		*/
 	display: block;
-	margin: 0;
-	padding: 20px 0;
+  
+	margin: auto;
+	padding: 0 0 0 0;
+
 }
 
 .sidebar ul li{		/* 		styles and removes the bullet from the list 			*/
 	display: block;
 	list-style: none;
+  width:100%;
+  margin:auto;
+  
+  padding:20px 0;
 }
+  
 
 .sidebar ul li a{  /* 		styles the links inside the sidebar			*/
 	display: block;
-	padding: 10px 20px;
+	padding:  0;
 	color: white;
 	display: block;
 	text-decoration: none;
+  width:25%;
+  margin:auto;
 }
+  .sidebar ul li a:hover{
+    color:grey;
+   
+  }
 
 .sidebarBtn{			/* 		styles and positions the sidebar hamburger button 			*/
 	display: block;
@@ -317,31 +330,34 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	display: block;
 	width: 90%;				/* 			makes one line of length 90% inside the sidebar button container		*/
 	height: 5px;
-	background-color: red;
+	background-color: 	#D3D3D3;
 	position: absolute;			/* 		makes sure it doesnt move other elements inside the webpage			*/
 	top: 35px;
-	transition: .10s;	}	/* 			when clicked how long it takes to animate to x and back		*/
+	transition: .10s;	
+  border-radius:15%;}	/* 			when clicked how long it takes to animate to x and back		*/
 
 
 	.sidebarBtn span:before{ /*    creates the second line            */
 	content: '';
+    border-radius:15%;
 	left: 0;
 	position: absolute;
 	top: -15px;				/*   puts the second line up 15 pixels from the original line which was in the middle of sidebarBtn container            */
 	width: 100%;
 	height: 5px;
-	background-color: red;
+	background-color: 	#D3D3D3;
 	transition: .3s;
 }
 
 .sidebarBtn span:after{	/*   creates the third line of hamburger menu             */
 	content: '';
+  border-radius:15%;
 	left: 0;
 	position: absolute;
 	top: 15px;				/*    puts it 15 pixels down from the top from the original line that is in the middle            */
 	width: 100%;
 	height: 5px;
-	background-color: red;
+	background-color: 	#D3D3D3;
 	transition: .3s;
 }
 
@@ -349,16 +365,22 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 .sidebarBtn.toggle span{			/* 		removes the middle line from the menu button to only be left with top and bottom lines that will cross each other when clicked			*/
 	background: transparent;
+  transition:.100s;
 }
 
 .sidebarBtn.toggle span:before{ 
+  position:absolute;
+  left:110%;
 top: 0;
 transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees from the top to cross the the bottom line which would also rotate		*/
 
 }
 
 .sidebarBtn.toggle span:after{	/* 		when clicked the third line will rotate counter 45 degrees to cross the top line to form an X		*/
+ position:absolute;
 	top:0;
+  left:110%;
+ 
 	transform: rotate(-45deg);
 }
 
