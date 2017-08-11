@@ -21,7 +21,14 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
 
     var interval;
 //console.log($slides.length);
+
+
+
+
     function startSlider() {
+      if ( $(window).width() > 739) {      
+  //Add your javascript for large screens here 
+
         interval = setInterval(function() {
             $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
               currentSlide++;
@@ -33,9 +40,30 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
                 }
             });
         }, pause)}
+      }
 
+
+function mobile() {
+      if ( $(window).width() < 600) {      
+  //Add your javascript for large screens here 
+
+        interval = setInterval(function() {
+            $slideContainer.animate({'margin-left': '-='+400}, animationSpeed, function() {
+              currentSlide++;
+
+              console.log(currentSlide);  
+                if (currentSlide == $slides.length) {
+                    currentSlide = 1;
+                    $slideContainer.css('margin-left', 0);
+                }
+            });
+        }, pause)}
+      }
 
         startSlider();
+        mobile();
+
+
 
 
 

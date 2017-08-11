@@ -451,8 +451,8 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 .image-container{	/*               positions the image container as well as the color of the background                          */
   overflow: hidden;
   border:3px solid black;
-  width: 90%;
-  height: 75%	;
+  width: 400px;
+  height: 60%	;
     margin:auto;
   background-color: rgba(153, 73, 70, 0.08);
   padding-bottom: 1.3em;
@@ -477,7 +477,7 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
  
 	float: left;
 	list-style-type: none;
-	width:740px;
+	width:400px;
 	height: 100%;
 }
 
