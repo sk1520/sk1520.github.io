@@ -68,6 +68,7 @@ function mobile() {
     $slideContainer.on('mouseenter', pauseSlider).on('mouseleave', startSlider);
 
     startSlider();
+    mobile();
 
 
 
