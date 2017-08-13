@@ -59,9 +59,24 @@ function mobile() {
             });
         }, pause)}
       }
+ 
 
-        startSlider();
-        mobile();
+    function pauseSlider() {
+        clearInterval(interval);
+    }
+
+    $slideContainer.on('mouseenter', pauseSlider).on('mouseleave', startSlider);
+
+    startSlider();
+
+
+
+
+
+
+
+
+       
 
 
 
