@@ -504,5 +504,14 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 	height: 100%;
 
 }
+	.image-container{
+	transition:none;
+}
+
+ .image-container:hover{
+ 	position: relative;
+	transform: none;
+	-webkit-transform: none;
 	
+}
 }
