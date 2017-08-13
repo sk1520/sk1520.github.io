@@ -59,7 +59,7 @@ hr{ 				/* horizantal line */
 	color:white;
 	position:absolute;
 
-	 margin-top: -80px;
+	 margin-top: -3em;
 	 clear:both;
 
 }
@@ -204,7 +204,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 .par-image-container{			/*         paragraph and image container and positions it                                 */
   position:relative;
- 
+
   width:60%;
   margin:auto;
 
@@ -237,6 +237,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
   background-color: rgba(153, 73, 70, 0.08);
   padding-bottom: 0;
   z-index: 1;
+  top:1em;
 }
 
  .slides{
@@ -458,7 +459,7 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 	width: 80%;
 	height: 31%;
 	text-align: justify;
-	overflow: scroll;
+	
 }
 
 .image-container{	/*               positions the image container as well as the color of the background                          */
