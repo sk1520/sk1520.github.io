@@ -43,7 +43,7 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
       }
 
 
-function mobile() {
+function mobileSlider() {
       if ( $(window).width() < 600) {      
   //Add your javascript for large screens here 
 
@@ -65,10 +65,13 @@ function mobile() {
         clearInterval(interval);
     }
 
-    $slideContainer.on('mouseenter', pauseSlider).on('mouseleave', startSlider);
+    if ($(window).width()>600){
+    $slideContainer.on('mouseenter', pauseSlider).on('mouseleave', startSlider);}
+
+    
 
     startSlider();
-    mobile();
+    mobileSlider();
 
 
 
