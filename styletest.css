@@ -259,7 +259,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	float: left;
 	list-style-type: none;
 	width:740px;
-	height: 720px;
+	height: 721px;
 }
 
 .slide img{
@@ -268,7 +268,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	margin: 0;
 	padding:0;
 	width: 740px;
-	height: 720px;
+	height: 100%;
 
 }
 
@@ -281,6 +281,82 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	transform: scale(1.3,1.2);
 	-webkit-transform: scale(1.3,1.2);
 	z-index: 1;
+}
+
+
+
+.customer-pic-container{
+	position: relative;
+	border-style:solid;
+	width: 80%;
+	height: 50%;
+	top: 2em;
+	margin:auto;
+}
+
+.satisfied-container{ /* container of images and the satisfaction and mission statement*/
+	position: relative;
+	border-style: solid;
+	width: 40%;
+	height: 30%;
+	top: 0;
+	margin:auto;
+}
+
+.satisfied-customers, .customers{
+	text-align: center;
+	margin:auto;
+	border-style:solid;
+}
+
+.customers{
+	 font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 1em;
+    font-family: motor;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.4em;
+    letter-spacing: .13em;
+    line-height: 1.5em;
+    text-transform: none;
+
+}
+
+.satisfied-customers-par p{
+
+	font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+ 
+    font-family: motor;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 18px;
+    letter-spacing: .09em;
+    line-height: 1.23em;
+
+    text-transform: none;
+}
+
+.satisfied-customers-par{
+	width: 100%;
+}
+.gallery{
+	position: relative;
+	border-style: solid;
+	width: 15%;
+	left:16%;
+	margin: 1em 3em;
+	display:inline-block;
+}
+
+
+.sat-image{
+	width: 100%;
 }
 
 
@@ -471,6 +547,7 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
   background-color: rgba(153, 73, 70, 0.08);
   padding-bottom: 1.3em;
   padding: 0;
+  z-index: 0;
 }
 
  .slides{
