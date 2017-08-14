@@ -365,7 +365,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 .gallery:hover{
 	transform: scale(1.5, 1.5);
 	background-color: white;
-	z-index: 1;
+	z-index: 5;
 
 
 
@@ -644,18 +644,19 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 .customer-pic-container{
 	width: auto;
 	margin:auto;
-	border-style: solid;
 	
+	z-index: 2;
 	height: auto;
+	margin-bottom: 2em;
 }
 
 .satisfied-container{ /* container of images and the satisfaction and mission statement*/
-	border-style: solid;
+	
 }
 
 .satisfied-customers, .customers{
 	
-	border-style:solid;
+	
 }
 
 .customers{
@@ -664,7 +665,8 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 }
 
 .satisfied-customers-par p, .satisfied-customer-par{
-	width: 100%;
+	width: 90%;
+	margin:auto;
 
 }
 
@@ -678,16 +680,18 @@ clear: both;
 width: 50%;
 height:auto; 
 margin:auto;
-margin-top:1em;
-
-
+margin-top:.6em;
 }
 
+.gallery:hover{
+	transform: scale(1.4,1.4);
+}
 
 
 .images-customer{
 	width: 100%;
-	border-style: solid;	
+	height: auto;
+	
 
 }
 
