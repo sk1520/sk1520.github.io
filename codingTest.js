@@ -26,7 +26,7 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
 
 
     function startSlider() {
-      if ( $(window).width() > 739) {      
+      if ( $(window).width() > 800) {      
   //Add your javascript for large screens here 
 
         interval = setInterval(function() {
@@ -44,7 +44,7 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
 
 
 function mobileSlider() {
-      if ( $(window).width() < 600) {      
+      if ( $(window).width() < 800) {      
   //Add your javascript for large screens here 
 
         interval = setInterval(function() {
@@ -68,7 +68,7 @@ function mobileSlider() {
     if ($(window).width()>600){
     $slideContainer.on('mouseenter', pauseSlider).on('mouseleave', startSlider);}
 
-    
+
 
     startSlider();
     mobileSlider();

@@ -284,7 +284,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 }
 
 
-/*_____________________________________________________________________________________*/
+/*_______________________________Satisfied Customers______________________________________________________*/
 .customer-pic-container{
 	position: relative;
 	 
@@ -419,7 +419,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 		height: 100%;
 		transition: 1s; /* 		seconds to transition in			*/
 		
-		z-index: 1;
+		z-index: 100;
 	}
 	.active{			/* 	css Class and is not in html, it is called by jquery to slide back in the sidebar when user clicks the menu hamburger				*/
 		right:0;
@@ -553,6 +553,7 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 		display: none;
 }
 
+
 /*----------------------------------------------------------------------------------*/
 .nav-bar{
   position:relative;
@@ -573,15 +574,17 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 }
 
 .container-par{
+	
 	margin: auto;
 	position: relative;
-	width: 80%;
-	height: 31%;
+	width: 90%;
+	height: auto;
 	text-align: justify;
-	
+	margin-bottom: .1em;
 }
 
 .image-container{	/*               positions the image container as well as the color of the background                          */
+	position: relative;
   overflow: hidden;
   border:3px solid black;
   width: 400px;
@@ -591,6 +594,7 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
   padding-bottom: 1.3em;
   padding: 0;
   z-index: 0;
+  
 }
 
  .slides{
@@ -634,4 +638,70 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 	-webkit-transform: none;
 	
 }
+/*--------------------------------------Satisfied customers-------------------------------------------------------*/
+
+
+.customer-pic-container{
+	width: auto;
+	margin:auto;
+	border-style: solid;
+	
+	height: auto;
 }
+
+.satisfied-container{ /* container of images and the satisfaction and mission statement*/
+	border-style: solid;
+}
+
+.satisfied-customers, .customers{
+	
+	border-style:solid;
+}
+
+.customers{
+	
+
+}
+
+.satisfied-customers-par p, .satisfied-customer-par{
+	width: 100%;
+
+}
+
+.satisfied-customers-par{
+	width: 500px;
+}
+.gallery{
+	position: static;
+	display: block;
+clear: both;
+width: 50%;
+height:auto; 
+margin:auto;
+margin-top:1em;
+
+
+}
+
+
+
+.images-customer{
+	width: 100%;
+	border-style: solid;	
+
+}
+
+.images-customer img{
+	width: 100%;
+	height: 300px;
+	padding: 0;
+}
+
+.description{
+width: 100%;
+	
+}
+
+
+}
+
