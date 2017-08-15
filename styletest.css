@@ -8,7 +8,7 @@ body, html{  /* removes the default margin and paddings and sets the background 
   margin:0;
   padding:0;
  
-  background-color: #FFF1F3;	
+  background-color: white;	
 }
 a{					/* removes the default underline from anchor links and gives the color to the text */
   color:white;
@@ -37,6 +37,7 @@ hr{ 				/* horizantal line */
 
 #wrapper{ 				/*       wraps the whole content of the page                                  */
 	min-height: 100%;
+	overflow-x: hidden;
 
 }
 
@@ -98,6 +99,7 @@ z-index: 1;
   background-color: #231E22;
   padding:.2% 0 .2% 0;
   margin:0 auto; 
+  z-index: 100;
 }
 .nav-bar div{				/*            puts all the content within the nav bar wrapper inline and center                              */
  
@@ -179,13 +181,70 @@ z-index: 1;
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .welcome-container{ /*            wrapper container for Welcome and the horizontal line                              */
-	padding-top: 2.5em;
+	background:url(https://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/19367615_1892480557681308_1451688882939625472_n.jpg);
+	padding-top: 10em;
+	
+	width: 100%;
+	height: 68%;
+	margin:auto;
+	background-repeat: no-repeat;
+	background-size: 100% 120%;
+	background-position: 0px -30px;
+	border-bottom: 1px solid #ccc;
+	
 }
 
 .welcome-container h1{   /*            styles "welcome" to center                            */
 	text-align: center;
+	font-size:3em;
+	letter-spacing: .1em;
+	font-weight: 900;
+	margin-top: 2em;
+	color:white;
 }
 
+.welcome-container h1, h1{
+	font-family:"Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif
+}
+/*---------------------Describing what we do------------------------------------------------------------------------------------------------------------------------*/
+
+.list-descriptions-container{
+	margin-top: 1em;
+	border-top: 4px solid rgba(204,204,204, .1);
+
+}
+
+.title-description-of-what-we-do{
+	font-family:"Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+	width: 50%;
+	margin:auto;
+	
+	text-align: center;
+	letter-spacing: .1em;
+}
+
+
+.list-description{
+	
+	
+	width: 100%;
+}
+
+.pic-descriptions{
+	position: relative;
+	left: 2em;
+	
+}
+
+.describing-what-we-do{
+	font-weight: bold;
+	position: relative;
+	top: -10em;
+	left: 20em;
+	width: 50%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
 h1{									/*            styles the font and etc... of all h1 elements                             */
 	  font-family: Arial,Helvetica,sans-serif;
     font-weight: 700;
@@ -203,10 +262,12 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 
 .par-image-container{			/*         paragraph and image container and positions it                                 */
-  position:relative;
 
-  width:60%;
+  position:relative;
+  background-color:#231E22;
+  width:100%;
   margin:auto;
+  height: auto;
 
 }
 
@@ -228,22 +289,23 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 
 .image-container{	/*               positions the image container as well as the color of the background                          */
-	position: relative;
+
   overflow: hidden;
-  border:3px solid black;
-  width: 740px;
-  height: 720px	;
-    margin:auto;
+   margin:auto;
+  width: 1200px;
+
+  height: auto;
+   
   background-color: rgba(153, 73, 70, 0.08);
-  padding-bottom: 0;
+  padding:0;
   z-index: 1;
-  top:1em;
+ 
 }
 
  .slides{
  	
 	display: block;
-	width: 6000px; 
+	width: 20000px; 
 	height: 720px;
 	padding: 0;
 	margin: 0;
@@ -258,7 +320,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
  	
 	float: left;
 	list-style-type: none;
-	width:740px;
+	width:1200px;
 	height: 721px;
 }
 
@@ -267,19 +329,19 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	top: 0;
 	margin: 0;
 	padding:0;
-	width: 740px;
+	width: 1200px;
 	height: 100%;
 
 }
 
  .image-container{
-	transition: transform 2.2s;
+	transition: transform 1s;
 }
 
  .image-container:hover{
  	position: relative;
-	transform: scale(1.4,1.4);
-	-webkit-transform: scale(1.3,1.2);
+	transform: scale(1.05,1.05);
+	-webkit-transform: scale(1.05,1.05);
 	z-index: 1;
 }
 
@@ -325,7 +387,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 }
 
-.satisfied-customers-par p{
+.satisfied-customers-par p, p{
 
 	font-family: Arial,Helvetica,sans-serif;
     font-weight: 700;
@@ -407,7 +469,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 /* Phone website--------------------------------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 890px){ 	/*    sets to activate the css when screen is equal to or less than the pixels set                                     */
+@media screen and (max-width: 1300px){ 	/*    sets to activate the css when screen is equal to or less than the pixels set                                     */
 	
 	.sidebar{		/* 	side bar container				*/
 		display: block;

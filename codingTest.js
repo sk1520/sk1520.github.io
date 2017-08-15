@@ -9,7 +9,8 @@
           
 
 $(function() { //jquery line of code to tell for the everything to be loaded before running scripts
-    var width = 740;
+    var width = 1200;
+    var percents= parseInt()
     var animationSpeed = 2000;
     var pause = 4500;
     var currentSlide = 1;
