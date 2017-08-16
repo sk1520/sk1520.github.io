@@ -211,14 +211,15 @@ z-index: 1;
 .list-descriptions-container{
 	margin-top: 1em;
 	border-top: 4px solid rgba(204,204,204, .1);
+	border-bottom: 4px solid rgba(204,204,204, .1); 
 
 }
 
-.title-description-of-what-we-do{
+.offer{
 	font-family:"Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 	width: 50%;
 	margin:auto;
-	
+	border-bottom: 1px solid grey;
 	text-align: center;
 	letter-spacing: .1em;
 }
@@ -239,8 +240,9 @@ z-index: 1;
 .describing-what-we-do{
 	font-weight: bold;
 	position: relative;
+	margin:auto;
 	top: -10em;
-	left: 20em;
+	
 	width: 50%;
 }
 
@@ -340,8 +342,8 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
  .image-container:hover{
  	position: relative;
-	transform: scale(1.05,1.05);
-	-webkit-transform: scale(1.05,1.05);
+	transform: scale(1.01,1.01);
+	-webkit-transform: scale(1.01,1.01);
 	z-index: 1;
 }
 
@@ -393,7 +395,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
     font-weight: 700;
     letter-spacing: 0em;
     line-height: 1.2em;
- 
+ 	
     font-family: motor;
     font-weight: 500;
     font-style: bold;
@@ -406,7 +408,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 .satisfied-customers-par{
 	width: 60%;
-	
+	text-align: center;
 	margin:auto;
 }
 .gallery{
@@ -616,7 +618,7 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 }
 
 
-/*----------------------------------------------------------------------------------*/
+/*---------------------main content-------------------------------------------------------------*/
 .nav-bar{
   position:relative;
   width:100%;
@@ -629,7 +631,20 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 
 
 #content{width: 100%}
-
+/*-------------------------------------*/
+.welcome-container{ /*            wrapper container for Welcome and the horizontal line                              */
+	background:url(https://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/19367615_1892480557681308_1451688882939625472_n.jpg);
+	padding-top: 10em;
+	
+	width: 100%;
+	height: 68%;
+	margin:auto;
+	background-repeat: no-repeat;
+	background-size: 110% 115%;
+	background-position: -20px ;
+	border-bottom: 1px solid #ccc;
+	
+}
 .pic-descriptions {
 	left: 0;
 
