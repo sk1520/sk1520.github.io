@@ -8,12 +8,9 @@ body, html{  /* removes the default margin and paddings and sets the background 
   margin:0;
   padding:0;
   height: 100%;
- 
   background-color: white;	
 }
-html{
 
-}
 a{					/* removes the default underline from anchor links and gives the color to the text */
   color:white;
   text-decoration:none;}
@@ -22,10 +19,8 @@ hr{ 				/* horizantal line */
 	 height:1px;
     display: block;
     margin: 0.5em auto;
-
     border-style: inset;
     border-width: 1px;
-
     color: #030303;
     background-color: #030303;
      width:65%;
@@ -40,14 +35,15 @@ hr{ 				/* horizantal line */
 
 
 #wrapper{ 				/*       wraps the whole content of the page                                  */
-	min-height: 100%;
+	height: 100%;
+	
 	
 	
 }
 
 #content{				/*           body wrapper where the content will be displayed                              */
 	min-height: 100%;
-
+	
 	padding-bottom: 90px;
 	
 	
@@ -72,7 +68,7 @@ hr{ 				/* horizantal line */
 
 
 
-/*-----------------------Navigation Bar-------------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------Navigation Bar image logo-------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 
@@ -89,14 +85,14 @@ hr{ 				/* horizantal line */
   
   
 }
-.img-logo a{/*            positions the link so it can cover the whole image logo                             */
-     
-position: relative;    
-z-index: 1;     
-  
-}
+		.img-logo a{/*            positions the link so it can cover the whole image logo                             */
+		     
+		position: relative;    
+		z-index: 1;     
+		  
+		}
 
-
+/*-------------------------------navigation bar --------------------------------------------------------*/
 .nav-bar{	/*                 navigation bar wrapper                        */
   position:relative;
   width:100%;
@@ -105,77 +101,70 @@ z-index: 1;
   margin:0 auto; 
   z-index: 100;
 }
-.nav-bar div{				/*            puts all the content within the nav bar wrapper inline and center                              */
- 
-  display:inline-block;
-  text-align:center;
-  margin:auto;
-  
-  
- 
-}
+		.nav-bar div{				/*            puts all the content within the nav bar wrapper inline and center                              */
+		 
+		  display:inline-block;
+		  text-align:center;
+		  margin:auto;
+		}
+
 
 .menu-buttons li{			/*                 sets the menu buttons in a line                        */
   display:inline-block;   
 }
 
-.menu-buttons li a:hover, .social-media-icons a:hover{ /*      when you hover over the menu options it will change color                                   */
- color:grey;
-  
-}
+		.menu-buttons li a:hover, .social-media-icons a:hover{ /*      when you hover over the menu options it will change color                                   */
+		 color:grey;	  
+		}
 
 
 .container{				/*         wrapper for menu buttons and social media icons                                 */
   position:absolute;
   left:0;
- 
   width:100%;
- 
- 
-  
-  
-  
 }
   
-.menu{								/*       wrapper for the menu                                  */
-  position:relative;
-  left:5%;
-  line-height:69.5px;
-  border-color: red;
-  margin:auto;
-  width:60%;
-  
-  
-}
+		.menu{								/*       wrapper for the menu                                  */
+		  position:absolute;
+		  left:0;
+		  right: 0;
+		  top: 0;
+		  bottom: 0;
+		  line-height:69.5px;
+		  margin:auto;
+		  width:60%;
+		  
+		  
+		}
 
-.social-media-icons { /*         wrapps the social media icons                                 */
-  float:right;
-  position:relative;
-  line-height:69.5px;
-  font-size:1.4em;
-  right:1%;
- 
-   
-  word-spacing:2.5em;
-  
-}
+		.social-media-icons { /*         wrapps the social media icons                                 */
+		  float:right;
+		  position:relative;
+		  line-height:69.5px;
+		  font-size:1.4em;
+		  right:1%;
+		 
+		   
+		  word-spacing:2.5em;
+		  
+		}
 
 
 
 
-.menu-buttons {				/*                 wraps the menu buttons                        */
-    font-family: Arial,Helvetica,sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0em;
-    font-family: motor;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    letter-spacing: .17em;
-    text-transform: uppercase;
-    word-spacing: 2.5em;
-   
+		.menu-buttons {				/*                 wraps the menu buttons                        */
+		    font-family: Arial,Helvetica,sans-serif;
+		    font-weight: 700;
+		    font-size: 14px;
+		    letter-spacing: 0em;
+		    font-family: motor;
+		    font-weight: 400;
+		    font-style: normal;
+		    font-size: 18px;
+		    letter-spacing: .17em;
+		    text-transform: uppercase;
+		    word-spacing: 2.5em;
+		   
     
   
   
@@ -186,8 +175,6 @@ z-index: 1;
 
 .welcome-container{ /*            wrapper container for Welcome and the horizontal line                              */
 	background:url(https://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/19367615_1892480557681308_1451688882939625472_n.jpg);
-	
-	
 	width: 100%;
 	height: 700px;
 	margin:auto;
@@ -195,63 +182,56 @@ z-index: 1;
 	background-size: 100% 120%;
 	background-position: 0px -30px;
 	border-bottom: 1px solid #ccc;
-	
 }
 
-.welcome-container h1, .welcome-container hr{   /*            styles "welcome" to center                            */
-position: relative;
-	text-align: center;
-	font-size:3em;
-	letter-spacing: .1em;
-	font-weight: 900;
-	top: 6em;
-	margin:auto;
-	color:white;
-	
-}
+		.welcome-container h1, .welcome-container hr{   /*            styles "welcome" to center                            */
+			position: relative;
+			text-align: center;
+			font-size:3em;
+			letter-spacing: .1em;
+			font-weight: 900;
+			top: 6em;
+			margin:auto;
+			color:white;
+		}
 
-.welcome-container h1, h1{
-	font-family:"Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif
-}
+				.welcome-container h1, h1{
+					font-family:"Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif
+				}
 /*---------------------Describing what we do------------------------------------------------------------------------------------------------------------------------*/
 
-.list-descriptions-container{
+.list-descriptions-container{ /* container of the images and descriptions of service offer*/
 	margin-top: 1em;
 	border-top: 4px solid rgba(204,204,204, .1);
 	border-bottom: 4px solid rgba(204,204,204, .1); 
-
 }
 
-.offer{
-	font-family:"Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-	width: 50%;
-	margin:auto;
-	border-bottom: 1px solid grey;
-	text-align: center;
-	letter-spacing: .1em;
-}
+	.offer{ /*styles the "we offer" h1 */
+		font-family:"Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+		width: 50%;
+		margin:auto;
+		border-bottom: 1px solid grey;
+		text-align: center;
+		letter-spacing: .1em;
+	}
 
 
-.list-description{
-	
-	
-	width: 100%;
-}
+		.list-description{
+			width: 100%;
+		}
 
-.pic-descriptions{
-	position: relative;
-	left: 2em;
-	
-}
+			.pic-descriptions{
+				position: relative;
+				left: 2em;
+			}
 
-.describing-what-we-do{
-	font-weight: bold;
-	position: relative;
-	margin:auto;
-	top: -10em;
-	
-	width: 50%;
-}
+				.describing-what-we-do{
+					font-weight: bold;
+					position: relative;
+					margin:auto;
+					top: -10em;
+					width: 50%;
+				}
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 h1{									/*            styles the font and etc... of all h1 elements                             */
@@ -271,7 +251,6 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 
 .par-image-container{			/*         paragraph and image container and positions it                                 */
-
   position:relative;
   background-color:#231E22;
   width:100%;
@@ -280,199 +259,177 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 }
 
-.container-par h3{											/*        styles the h3 elements inside the paragraph container                                 */
-	font-family: Arial,Helvetica,sans-serif;
-    font-weight: 700;
-    letter-spacing: 0em;
-    line-height: 1.2em;
-    text-transform: none;
-    font-family: motor;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 18px;
-    letter-spacing: .09em;
-    line-height: 1.4em;
-    text-transform: capitalize;
-}
+		.container-par h3{											/*        styles the h3 elements inside the paragraph container                                 */
+			font-family: Arial,Helvetica,sans-serif;
+		    font-weight: 700;
+		    letter-spacing: 0em;
+		    line-height: 1.2em;
+		    text-transform: none;
+		    font-family: motor;
+		    font-weight: 500;
+		    font-style: normal;
+		    font-size: 18px;
+		    letter-spacing: .09em;
+		    line-height: 1.4em;
+		    text-transform: capitalize;
+		}
 
 
 
-.image-container{	/*               positions the image container as well as the color of the background                          */
+			.image-container{	/*               positions the image container as well as the color of the background                          */
+			  overflow: hidden;
+			   margin:auto;
+			  width: 1200px;
+			  height: auto;
+			  background-color: rgba(153, 73, 70, 0.08);
+			  padding:0;
+			  z-index: 1;
+			}
 
-  overflow: hidden;
-   margin:auto;
-  width: 1200px;
+				 .slides{
+					display: block;
+					width: 20000px; 
+					height: 720px;
+					padding: 0;
+					margin: 0;
+				}
 
-  height: auto;
-   
-  background-color: rgba(153, 73, 70, 0.08);
-  padding:0;
-  z-index: 1;
- 
-}
+					 .slide {
+					 	overflow: hidden;
+					 	margin: 0;
+					 	padding:0;
+						float: left;
+						list-style-type: none;
+						width:1200px;
+						height: 721px;
+					}
 
- .slides{
- 	
-	display: block;
-	width: 20000px; 
-	height: 720px;
-	padding: 0;
-	margin: 0;
+						.slide img{
+							position: relative;
+							top: 0;
+							margin: 0;
+							padding:0;
+							width: 1200px;
+							height: 100%;
+						}
 
-}
+							 .image-container{
+								transition: transform 1s;
+							}
 
- .slide {
- 	overflow: hidden;
- 	margin: 0;
- 	padding:0;
- 	
- 	
-	float: left;
-	list-style-type: none;
-	width:1200px;
-	height: 721px;
-}
-
-.slide img{
-	position: relative;
-	top: 0;
-	margin: 0;
-	padding:0;
-	width: 1200px;
-	height: 100%;
-
-}
-
- .image-container{
-	transition: transform 1s;
-}
-
- .image-container:hover{
- 	position: relative;
-	transform: scale(1.01,1.01);
-	-webkit-transform: scale(1.01,1.01);
-	z-index: 1;
-}
+								 .image-container:hover{
+								 	position: relative;
+									transform: scale(1.01,1.01);
+									-webkit-transform: scale(1.01,1.01);
+									z-index: 1;
+								}
 
 
 /*_______________________________Satisfied Customers______________________________________________________*/
 .customer-pic-container{
 	position: relative;
-	 
 	width: 60%;
 	height: 80%;
 	top: 2em;
 	margin:auto;
 }
 
-.satisfied-container{ /* container of images and the satisfaction and mission statement*/
-	position: relative;
+	.satisfied-container{ /* container of images and the satisfaction and mission statement*/
+		position: relative;
+		width: 100%;
+		height: auto;
+		top: 0;
+		margin:auto;
+	}
 
-	width: 100%;
-	height: auto;
-	top: 0;
-	margin:auto;
-}
+		.satisfied-customers, .customers{
+			text-align: center;
+			margin:auto;
+		}
 
-.satisfied-customers, .customers{
-	text-align: center;
-	margin:auto;
-	
-}
+			.customers{
+				 font-family: Arial,Helvetica,sans-serif;
+			    font-weight: 700;
+			    font-size: 20px;
+			    letter-spacing: 0em;
+			    line-height: 1em;
+			    font-family: motor;
+			    font-weight: bold;
+			    font-style: normal;
+			    font-size: 1.4em;
+			    letter-spacing: .13em;
+			    line-height: 1.5em;
+			    text-transform: none;
 
-.customers{
-	 font-family: Arial,Helvetica,sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 0em;
-    line-height: 1em;
-    font-family: motor;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 1.4em;
-    letter-spacing: .13em;
-    line-height: 1.5em;
-    text-transform: none;
+			}
 
-}
+				.satisfied-customers-par p, p{
+					font-family: Arial,Helvetica,sans-serif;
+				    font-weight: 700;
+				    letter-spacing: 0em;
+				    line-height: 1.2em;
+				    font-family: motor;
+				    font-weight: 500;
+				    font-style: bold;
+				    font-size: 18px;
+				    letter-spacing: .09em;
+				    line-height: 1.23em;
+				    text-transform: none;
+				}
 
-.satisfied-customers-par p, p{
+					.satisfied-customers-par{
+						width: 60%;
+						text-align: center;
+						margin:auto;
+					}
+						.gallery{
+							position: relative;
+							border: 1.8px solid black;
+							width: 20%;
+							left:5%;
+							margin: 1em 3em;
+							margin-bottom: 5em;
+							display:inline-block;
+							height: auto;
+							top: 1em;
+							vertical-align: top;
+							transition: 2s;
+							z-index: 4;
 
-	font-family: Arial,Helvetica,sans-serif;
-    font-weight: 700;
-    letter-spacing: 0em;
-    line-height: 1.2em;
- 	
-    font-family: motor;
-    font-weight: 500;
-    font-style: bold;
-    font-size: 18px;
-    letter-spacing: .09em;
-    line-height: 1.23em;
+						}
 
-    text-transform: none;
-}
+							.gallery:hover{
+								transform: scale(1.5, 1.5);
+								background-color: white;
+								z-index: 5;
+							}
 
-.satisfied-customers-par{
-	width: 60%;
-	text-align: center;
-	margin:auto;
-}
-.gallery{
-	position: relative;
-	border: 1.8px solid black;
-	width: 20%;
-	left:5%;
-	margin: 1em 3em;
-	margin-bottom: 5em;
-	display:inline-block;
-	height: auto;
-	top: 1em;
-	vertical-align: top;
-	transition: 2s;
-	z-index: 4;
+								.images-customer{
+									position: relative;
+									top: 1em;
+									border-top:1px solid #ccc;
+									width: 100%;
+									height: auto;
+									margin:auto;
+								}
 
-}
+									.sat-image{
+										width: 100%;
+									}
 
-.gallery:hover{
-	transform: scale(1.5, 1.5);
-	background-color: white;
-	z-index: 5;
-
-
-
-}
-
-.images-customer{
-	position: relative;
-	top: 1em;
-	border-top:1px solid #ccc;
-	width: 100%;
-	height: auto;
-	margin:auto;
-}
-
-.sat-image{
-	width: 100%;
-	
-}
-
-.description{
-	font-family: Arial,Helvetica,sans-serif;
-    font-weight: 700;
-    letter-spacing: 0em;
-    line-height: 1.2em;
- 
-    font-family: motor;
-    font-weight: 500;
-    font-style: bold;
-    font-size: 18px;
-    letter-spacing: .09em;
-    line-height: 1.23em;
-
-    text-transform: none;
-	
-}
+										.description{
+											font-family: Arial,Helvetica,sans-serif;
+										    font-weight: 700;
+										    letter-spacing: 0em;
+										    line-height: 1.2em;
+										    font-family: motor;
+										    font-weight: 500;
+										    font-style: bold;
+										    font-size: 18px;
+										    letter-spacing: .09em;
+										    line-height: 1.23em;
+										    text-transform: none;
+										}
 
 
 
@@ -511,6 +468,8 @@ h1{									/*            styles the font and etc... of all h1 elements         
     text-transform: uppercase;
     word-spacing: 2.5em;
 	}
+
+	/*-------------------------------------------------------------------------------------------------*/
 .sidebar ul{		/* 			styles the unordered list and positions it		*/
 	display: block;
   
@@ -519,29 +478,30 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 }
 
-.sidebar ul li{		/* 		styles and removes the bullet from the list 			*/
-	display: block;
-	list-style: none;
-  width:100%;
-  margin:auto;
-  
-  padding:20px 0;
-}
-  
+		.sidebar ul li{		/* 		styles and removes the bullet from the list 			*/
+			display: block;
+			list-style: none;
+		  width:100%;
+		  margin:auto;
+		  
+		  padding:20px 0;
+		}
+		  
 
-.sidebar ul li a{  /* 		styles the links inside the sidebar			*/
-	display: block;
-	padding:  0;
-	color: white;
-	display: block;
-	text-decoration: none;
-  width:25%;
-  margin:auto;
-}
-  .sidebar ul li a:hover{
-    color:grey;
-   
-  }
+				.sidebar ul li a{  /* 		styles the links inside the sidebar			*/
+					display: block;
+					padding:  0;
+					color: white;
+					display: block;
+					text-decoration: none;
+				  width:25%;
+				  margin:auto;
+				}
+					  .sidebar ul li a:hover{
+					    color:grey;
+					   
+					  }
+  /*----------------------------------styles the hamburger menu icon-----------------------------------------------------------------------------*/
 
 .sidebarBtn{			/* 		styles and positions the sidebar hamburger button 			*/
 	display: block;
@@ -558,63 +518,64 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 }
 
-.sidebarBtn span {			/* 		creates hamburger button line which is in the middle 			*/
-	display: block;
-	width: 90%;				/* 			makes one line of length 90% inside the sidebar button container		*/
-	height: 5px;
-	background-color: 	#D3D3D3;
-	position: absolute;			/* 		makes sure it doesnt move other elements inside the webpage			*/
-	top: 35px;
-	transition: .10s;	
-  border-radius:15%;}	/* 			when clicked how long it takes to animate to x and back		*/
+	.sidebarBtn span {			/* 		creates hamburger button line which is in the middle 			*/
+		display: block;
+		width: 90%;				/* 			makes one line of length 90% inside the sidebar button container		*/
+		height: 5px;
+		background-color: 	#D3D3D3;
+		position: absolute;			/* 		makes sure it doesnt move other elements inside the webpage			*/
+		top: 35px;
+		transition: .10s;	
+	  border-radius:15%;}	/* 			when clicked how long it takes to animate to x and back		*/
 
 
-	.sidebarBtn span:before{ /*    creates the second line            */
-	content: '';
-    border-radius:15%;
-	left: 0;
-	position: absolute;
-	top: -15px;				/*   puts the second line up 15 pixels from the original line which was in the middle of sidebarBtn container            */
-	width: 100%;
-	height: 5px;
-	background-color: 	#D3D3D3;
-	transition: .3s;
-}
+			.sidebarBtn span:before{ /*    creates the second line            */
+			content: '';
+		    border-radius:15%;
+			left: 0;
+			position: absolute;
+			top: -15px;				/*   puts the second line up 15 pixels from the original line which was in the middle of sidebarBtn container            */
+			width: 100%;
+			height: 5px;
+			background-color: 	#D3D3D3;
+			transition: .3s;
+		}
 
-.sidebarBtn span:after{	/*   creates the third line of hamburger menu             */
-	content: '';
-  border-radius:15%;
-	left: 0;
-	position: absolute;
-	top: 15px;				/*    puts it 15 pixels down from the top from the original line that is in the middle            */
-	width: 100%;
-	height: 5px;
-	background-color: 	#D3D3D3;
-	transition: .3s;
-}
+				.sidebarBtn span:after{	/*   creates the third line of hamburger menu             */
+					content: '';
+				  border-radius:15%;
+					left: 0;
+					position: absolute;
+					top: 15px;				/*    puts it 15 pixels down from the top from the original line that is in the middle            */
+					width: 100%;
+					height: 5px;
+					background-color: 	#D3D3D3;
+					transition: .3s;
+				}
 
 
+/*----------------------------------------------------------------------------------------------------------------------------------*/
 
 .sidebarBtn.toggle span{			/* 		removes the middle line from the menu button to only be left with top and bottom lines that will cross each other when clicked			*/
 	background: transparent;
   transition:.100s;
 }
 
-.sidebarBtn.toggle span:before{ 
-  position:absolute;
-  left:110%;
-top: 0;
-transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees from the top to cross the the bottom line which would also rotate		*/
+	.sidebarBtn.toggle span:before{ 
+	  position:absolute;
+	  left:110%;
+	top: 0;
+	transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees from the top to cross the the bottom line which would also rotate		*/
 
-}
+	}
 
-.sidebarBtn.toggle span:after{	/* 		when clicked the third line will rotate counter 45 degrees to cross the top line to form an X		*/
- position:absolute;
-	top:0;
-  left:110%;
- 
-	transform: rotate(-45deg);
-}
+			.sidebarBtn.toggle span:after{	/* 		when clicked the third line will rotate counter 45 degrees to cross the top line to form an X		*/
+			 position:absolute;
+				top:0;
+			  left:110%;
+			 
+				transform: rotate(-45deg);
+			}
 
 
 
@@ -653,25 +614,25 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 	border-bottom: 1px solid #ccc;
 	
 }
-.welcome-container h1 {   /*            styles "welcome" to center                            */
-position: relative;
-	text-align: center;
-	font-size:3em;
-	letter-spacing: .1em;
-	font-weight: 900;
-	line-height: inherit;
-	margin:auto;
-	color:white;
-}
-.pic-descriptions {
-	left: 0;
+		.welcome-container h1 {   /*            styles "welcome" to center                            */
+		position: relative;
+			text-align: center;
+			font-size:3em;
+			letter-spacing: .1em;
+			font-weight: 900;
+			line-height: inherit;
+			margin:auto;
+			color:white;
+			}
+				.pic-descriptions {
+					left: 0;
 
-}
+				}
 
-.describing-what-we-do{
-	left:16em;
-	margin:0;
-}
+					.describing-what-we-do{
+						left:16em;
+						margin:0;
+					}
 
 
 
@@ -680,71 +641,71 @@ position: relative;
 	width: 100%;
 }
 
-.container-par{
-	
-	margin: auto;
-	position: relative;
-	width: 90%;
-	height: auto;
-	text-align: justify;
-	margin-bottom: .1em;
-}
+		.container-par{
+			
+			margin: auto;
+			position: relative;
+			width: 90%;
+			height: auto;
+			text-align: justify;
+			margin-bottom: .1em;
+		}
 
-.image-container{	/*               positions the image container as well as the color of the background                          */
-	position: relative;
-  overflow: hidden;
-  border:3px solid black;
-  width: 400px;
-  height: 500px	;
-    margin:auto;
-  background-color: rgba(153, 73, 70, 0.08);
-  padding-bottom: 1.3em;
-  padding: 0;
-  z-index: 0;
-  
-}
+			.image-container{	/*               positions the image container as well as the color of the background                          */
+				position: relative;
+			  overflow: hidden;
+			  border:3px solid black;
+			  width: 400px;
+			  height: 500px	;
+			    margin:auto;
+			  background-color: rgba(153, 73, 70, 0.08);
+			  padding-bottom: 1.3em;
+			  padding: 0;
+			  z-index: 0;
+			  
+			}
 
- .slides{
- 
-	display: block;
-	width: 6000px; 
-	height: 100%;
-	padding: 0;
-	margin: 0;
+				 .slides{
+				 
+					display: block;
+					width: 6000px; 
+					height: 100%;
+					padding: 0;
+					margin: 0;
 
-}
+					}
 
- .slide {
- 	overflow: hidden;
- 	margin: 0;
- 	padding:0;
- 	
- 
-	float: left;
-	list-style-type: none;
-	width:400px;
-	height: 100%;
-}
+					 .slide {
+					 	overflow: hidden;
+					 	margin: 0;
+					 	padding:0;
+					 	
+					 
+						float: left;
+						list-style-type: none;
+						width:400px;
+						height: 100%;
+					}
 
-.slide img{
-	position: relative;
-	top: 0;
-	margin: 0;
-	padding:0;
-	width: 100%;
-	height: 100%;
+							.slide img{
+								position: relative;
+								top: 0;
+								margin: 0;
+								padding:0;
+								width: 100%;
+								height: 100%;
+							}
 
-}
-	.image-container{
-	transition:none;
-}
+				.image-container{
+				transition:none;
+			}
 
- .image-container:hover{
- 	position: relative;
-	transform: none;
-	-webkit-transform: none;
-	
-}
+			 .image-container:hover{
+			 	position: relative;
+				transform: none;
+				-webkit-transform: none;
+				
+			}
 /*--------------------------------------Satisfied customers-------------------------------------------------------*/
 
 
@@ -757,61 +718,61 @@ position: relative;
 	margin-bottom: 2em;
 }
 
-.satisfied-container{ /* container of images and the satisfaction and mission statement*/
-	
-}
+	.satisfied-container{ /* container of images and the satisfaction and mission statement*/
+		
+	}
 
-.satisfied-customers, .customers{
-	
-	
-}
+		.satisfied-customers, .customers{
+			
+			
+		}
 
-.customers{
-	
+			.customers{
+				
 
-}
+			}
 
-.satisfied-customers-par p, .satisfied-customer-par{
-	width: 90%;
-	margin:auto;
+				.satisfied-customers-par p, .satisfied-customer-par{
+					width: 90%;
+					margin:auto;
 
-}
+				}
 
-.satisfied-customers-par{
-	width: 500px;
-}
-.gallery{
-	position: static;
-	display: block;
-clear: both;
-width: 50%;
-height:auto; 
-margin:auto;
-margin-top:.6em;
-}
+					.satisfied-customers-par{
+						width: 500px;
+					}
+						.gallery{
+							position: static;
+							display: block;
+						clear: both;
+						width: 50%;
+						height:auto; 
+						margin:auto;
+						margin-top:.6em;
+						}
 
-.gallery:hover{
-	transform: scale(1.4,1.4);
-}
+							.gallery:hover{
+								transform: scale(1.4,1.4);
+							}
 
 
-.images-customer{
-	width: 100%;
-	height: auto;
-	
+								.images-customer{
+									width: 100%;
+									height: auto;
+									
 
-}
+								}
 
-.images-customer img{
-	width: 100%;
-	height: 300px;
-	padding: 0;
-}
+									.images-customer img{
+										width: 100%;
+										height: 300px;
+										padding: 0;
+									}
 
-.description{
-width: 100%;
-	
-}
+										.description{
+										width: 100%;
+											
+												}
 
 
 }
