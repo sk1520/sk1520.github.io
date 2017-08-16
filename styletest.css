@@ -7,7 +7,8 @@ body, html{  /* removes the default margin and paddings and sets the background 
   
   margin:0;
   padding:0;
- 
+ overflow-x: hidden;
+
   background-color: white;	
 }
 a{					/* removes the default underline from anchor links and gives the color to the text */
@@ -37,8 +38,7 @@ hr{ 				/* horizantal line */
 
 #wrapper{ 				/*       wraps the whole content of the page                                  */
 	min-height: 100%;
-	overflow-x: hidden;
-
+	
 }
 
 #content{				/*           body wrapper where the content will be displayed                              */
@@ -630,7 +630,18 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 
 #content{width: 100%}
 
+.pic-descriptions {
+	left: 0;
 
+}
+
+.describing-what-we-do{
+	left:16em;
+}
+
+
+
+/* -------------------------------------sliding images----------------------------------------------------------------------*/
 .par-image-container{
 	width: 100%;
 }
