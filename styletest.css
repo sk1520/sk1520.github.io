@@ -652,6 +652,7 @@ transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees
 
 .describing-what-we-do{
 	left:16em;
+	margin:0;
 }
 
 
