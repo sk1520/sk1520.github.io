@@ -11,6 +11,21 @@ body, html{  /* removes the default margin and paddings and sets the background 
   background-color: white;	
 }
 
+h1,h2,h3, p,a {	/* gives the font style to headers and paragraphs*/
+	font-family:"Cera Pro", 
+				"HelveticaNeue", 
+				"Helvetica Neue", 
+				"HelveticaNeueRoman", 
+				"HelveticaNeue-Roman", 
+				"Helvetica Neue Roman", 
+				"TeXGyreHerosRegular", 
+				"Helvetica", 
+				"Tahoma", 
+				"Geneva", 
+				"Arial", 
+				sans-serif;
+}
+
 a{					/* removes the default underline from anchor links and gives the color to the text */
   color:white;
   text-decoration:none;}
@@ -450,8 +465,8 @@ h1{									/*            styles the font and etc... of all h1 elements         
 .menu-header{
 	margin:auto;
 	width: 100%;
-	margin-top: 20px;
-	margin-bottom: 20px;	
+	margin-top: 50px;
+	margin-bottom: 25px;	
 }
 	.menu-header h1{
 			letter-spacing: .3em;
@@ -460,6 +475,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 			border-bottom: 4px solid black;
 			width: 35%;
 			margin:auto;
+			padding-bottom: 10px;
 	}
 				.menu-header h2{
 					font-size: 1.3em;
@@ -467,6 +483,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 					width: 60%;
 					margin:auto;
 					font-weight: normal;
+					line-height: 1.5em;
 					margin-top: 25px;
 					font-family:"Cera Pro", 
 								"HelveticaNeue", 
@@ -480,26 +497,86 @@ h1{									/*            styles the font and etc... of all h1 elements         
 								"Geneva", 
 								"Arial", 
 								sans-serif;
+
 				}
 
-											.menu-header h2 a{
-												color: black;
-												border-bottom: 1px black solid;
-												padding-bottom: 1px;
-											}
+								.menu-header h2 a{
+									color: black;
+									border-bottom: 1px black solid;
+									padding-bottom: 1px;
+								}
 
-												.menu-header h2 a:hover{
-													color: red;
-												}
+									.menu-header h2 a:hover{
+										color: red;
+										border-color: red;
+									}
 
 
 
 .menu-container{
-	border:2px solid red;
 	width: 90%;
 	margin:auto;
 	text-align: center;
+	padding:3em 0 0 0;
+	
+	height: 50vh;
 }
+		.entrees-container h1{
+			width: 50%;
+			padding:10px 0 0 0;
+			margin:auto;
+			font-weight: 600;
+			font-style: italic;
+			border-top: 2px solid grey;
+			font-size: 40px;	
+		}
+
+			.entree-menu{
+				
+				display: inline-block;
+				margin:auto;
+				margin-bottom: 4px;
+				width: 35%;
+
+				padding:0 5em;
+				padding-top: 5em;
+				height: 100px;
+				vertical-align: top;
+			}	
+					.entree-menu h2{
+						text-align: left;
+						font-size: 1.5em;
+						font-weight: 700;
+							
+						
+					}
+
+						.price{
+						
+							float: right;
+							font-weight: normal;
+							font-size: .8em;
+						}
+
+
+
+							.entree-menu h3{
+								font-size: 1.1em;
+								text-align: left;
+								font-weight: bold;
+								margin-left: 20px;
+								padding-left: 4px;
+								display: block;
+								display: list-item;
+								list-style-type: disc;
+								
+							}
+									.entree-menu p{
+										text-align: left;
+										font-weight: normal;
+										font-size: 1em;
+										font-style:italic;
+								}
 
 
 
