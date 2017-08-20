@@ -651,7 +651,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 /* Phone website--------------------------------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 900px){ 	/*    sets to activate the css when screen is equal to or less than the pixels set                                     */
+@media screen and (max-width: 1200px){ 	/*    sets to activate the css when screen is equal to or less than the pixels set                                     */
 	
 	.sidebar{		/* 	side bar container				*/
 		display: block;
