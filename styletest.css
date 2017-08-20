@@ -1026,6 +1026,10 @@ h1{									/*            styles the font and etc... of all h1 elements         
 .about-us-container{
 	margin-top: 10em;
 }
+	.about-us-container h1{
+		width: 50%;
+
+	}
 
 .about-pic-container{
 	width: 98%;
