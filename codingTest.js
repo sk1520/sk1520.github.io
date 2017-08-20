@@ -28,7 +28,7 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
 
     function startSlider() {
       if ( $(window).width() > 800) {      
-  //Add your javascript for large screens here 
+ 
 
         interval = setInterval(function() {
             $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {

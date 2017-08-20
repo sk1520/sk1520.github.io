@@ -191,11 +191,12 @@ hr{ 				/* horizantal line */
 .welcome-container{ /*            wrapper container for Welcome and the horizontal line                              */
 	background:url(https://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/19367615_1892480557681308_1451688882939625472_n.jpg);
 	width: 100%;
-	height: 700px;
+	height: 1000px;
 	margin:auto;
 	background-repeat: no-repeat;
 	background-size: 100% 120%;
-	background-position: 0px -30px;
+	background-position: 0px 0px;
+	background-attachment: fixed;
 	border-bottom: 1px solid #ccc;
 }
 
@@ -600,16 +601,18 @@ h1{									/*            styles the font and etc... of all h1 elements         
 .about-us-container{
 	margin:auto;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 20px;
 }
 
 		.about-us-container h1{
-			font-size: 3em;
-			text-align: center;
-			border-bottom: 4px solid black;
-			width: 50%;
-			margin:auto;
+			    letter-spacing: .3em;
+			    font-size: 3em;
+			    text-align: center;
+			    border-bottom: 4px solid black;
+			    width: 35%;
+			    margin: auto;
+			    padding-bottom: 10px;
 		}
 
 .about-pic-container{
@@ -819,10 +822,10 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 /*---------------------main content-------------------------------------------------------------*/
 .nav-bar{
-  position:relative;
+  position:fixed;
   width:100%;
 	background-color: #231E22;
-	width: auto;
+	top: 0;
   padding:.0;
   margin:0; 
 }
@@ -835,14 +838,16 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	background:url(https://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/19367615_1892480557681308_1451688882939625472_n.jpg);
 	
 	display: block;
-	width: 100%;
-	height: 800px;
+	
 	margin:auto;
 	background-repeat: no-repeat;
 	background-size: 110% 115%;
 	background-position: -20px ;
-	background-attachment: fixed;
+	z-index: 0;
 	border-bottom: 1px solid #ccc;
+
+	width: 100%;
+	height: 800px;
 	
 }
 		.welcome-container h1 {   /*            styles "welcome" to center                            */
@@ -1009,6 +1014,38 @@ h1{									/*            styles the font and etc... of all h1 elements         
 										width: 100%;
 											
 												}
+
+/*MENU MOBILE PAGE*----------------------------------------------------*/
+.menu-header{
+	margin-top: 10em;
+}
+
+
+/*ABOUT PAGE-------------------------------*/
+
+.about-us-container{
+	margin-top: 10em;
+}
+
+.about-pic-container{
+	width: 98%;
+	margin:auto;
+}
+	.about-pic-container img{
+		width: 100%;
+
+		border:3px solid black;
+	}
+
+.about-description{
+	margin-top: 2em;
+	width: 95%;
+}
+	.about-description p{
+		text-align: left;
+		line-height: 40px;
+	}
+
 
 
 }
