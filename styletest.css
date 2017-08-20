@@ -195,8 +195,19 @@ hr{ 				/* horizantal line */
 			color:white;
 		}
 
-				.welcome-container h1, h1{
-					font-family:"Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif
+				.welcome-container h1{
+					font-family:"Cera Pro", 
+								"HelveticaNeue", 
+								"Helvetica Neue", 
+								"HelveticaNeueRoman", 
+								"HelveticaNeue-Roman", 
+								"Helvetica Neue Roman", 
+								"TeXGyreHerosRegular", 
+								"Helvetica", 
+								"Tahoma", 
+								"Geneva", 
+								"Arial", 
+								sans-serif;
 				}
 /*---------------------Describing what we do------------------------------------------------------------------------------------------------------------------------*/
 
@@ -235,18 +246,18 @@ hr{ 				/* horizantal line */
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 h1{									/*            styles the font and etc... of all h1 elements                             */
-	  font-family: Arial,Helvetica,sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    letter-spacing: 0em;
-    line-height: 1em;
-    font-family: motor;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 3em;
-    letter-spacing: .45em;
-    line-height: 1.5em;
-    text-transform: none;
+	  font-family:	"Cera Pro", 
+					"HelveticaNeue", 
+					"Helvetica Neue", 
+					"HelveticaNeueRoman", 
+					"HelveticaNeue-Roman", 
+					"Helvetica Neue Roman", 
+					"TeXGyreHerosRegular", 
+					"Helvetica", 
+					"Tahoma", 
+					"Geneva", 
+					"Arial", 
+					sans-serif;
 }
 
 
@@ -431,7 +442,58 @@ h1{									/*            styles the font and etc... of all h1 elements         
 										    text-transform: none;
 										}
 
+/*-----------ABOUT PAGE*------------------------------------------------------------------------------*/
 
+.about-us-container{
+	margin:auto;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+		.about-us-container h1{
+			font-size: 3em;
+			text-align: center;
+			border-bottom: 1px solid grey;
+			width: 50%;
+			margin:auto;
+		}
+
+.about-pic-container{
+
+}
+		.about-pic-container img{
+			width: 50%;
+			display: block;
+			margin:auto;
+			border:1px solid black;
+			border-radius: 1%;
+
+		}
+
+.about-description{
+	width: 55%;
+	margin:auto;
+	margin-top: 10px;
+
+}
+		.about-description p{
+			line-height: 2em;
+			font-size: 30px;
+			text-align: justify;
+			font-family:"Cera Pro", 
+						"HelveticaNeue", 
+						"Helvetica Neue", 
+						"HelveticaNeueRoman", 
+						"HelveticaNeue-Roman", 
+						"Helvetica Neue Roman", 
+						"TeXGyreHerosRegular", 
+						"Helvetica", 
+						"Tahoma", 
+						"Geneva", 
+						"Arial", 
+						sans-serif;
+		}
 
 
 /* Phone website--------------------------------------------------------------------------------------------------------- */
@@ -611,6 +673,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	background-repeat: no-repeat;
 	background-size: 110% 115%;
 	background-position: -20px ;
+	background-attachment: fixed;
 	border-bottom: 1px solid #ccc;
 	
 }
@@ -712,7 +775,6 @@ h1{									/*            styles the font and etc... of all h1 elements         
 .customer-pic-container{
 	width: auto;
 	margin:auto;
-	
 	z-index: 2;
 	height: auto;
 	margin-bottom: 2em;
