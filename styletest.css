@@ -442,6 +442,78 @@ h1{									/*            styles the font and etc... of all h1 elements         
 										    text-transform: none;
 										}
 
+
+
+/*-MENU PAGE---------------------------------------------------------------------*/
+
+
+.menu-header{
+	margin:auto;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+	.menu-header h1{
+			letter-spacing: .3em;
+			font-size: 3em;
+			text-align: center;
+			border-bottom: 4px solid black;
+			width: 35%;
+			margin:auto;
+	}
+				.menu-header h2{
+					font-size: 1.3em;
+					text-align: center;
+					width: 60%;
+					margin:auto;
+					font-weight: normal;
+					margin-top: 25px;
+					font-family:"Cera Pro", 
+								"HelveticaNeue", 
+								"Helvetica Neue", 
+								"HelveticaNeueRoman", 
+								"HelveticaNeue-Roman", 
+								"Helvetica Neue Roman", 
+								"TeXGyreHerosRegular", 
+								"Helvetica", 
+								"Tahoma", 
+								"Geneva", 
+								"Arial", 
+								sans-serif;
+				}
+
+											.menu-header h2 a{
+												color: black;
+												border-bottom: 1px black solid;
+												padding-bottom: 1px;
+											}
+
+												.menu-header h2 a:hover{
+													color: red;
+												}
+
+
+
+.menu-container{
+	border:2px solid red;
+	width: 90%;
+	margin:auto;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-----------ABOUT PAGE*------------------------------------------------------------------------------*/
 
 .about-us-container{
@@ -454,7 +526,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 		.about-us-container h1{
 			font-size: 3em;
 			text-align: center;
-			border-bottom: 1px solid grey;
+			border-bottom: 4px solid black;
 			width: 50%;
 			margin:auto;
 		}
