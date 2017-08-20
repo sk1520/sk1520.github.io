@@ -651,7 +651,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 /* Phone website--------------------------------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 1300px){ 	/*    sets to activate the css when screen is equal to or less than the pixels set                                     */
+@media screen and (max-width: 900px){ 	/*    sets to activate the css when screen is equal to or less than the pixels set                                     */
 	
 	.sidebar{		/* 	side bar container				*/
 		display: block;
@@ -785,14 +785,17 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 .sidebarBtn.toggle span{			/* 		removes the middle line from the menu button to only be left with top and bottom lines that will cross each other when clicked			*/
 	background: transparent;
+	-webkit-transition:.100s;
+	-ms-transition:.100s;
+	-o-transition:.100s;
   transition:.100s;
 }
 
 	.sidebarBtn.toggle span:before{ 
 	  position:absolute;
 	  left:110%;
-	top: 0;
-	transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees from the top to cross the the bottom line which would also rotate		*/
+		top: 0;
+		transform: rotate(45deg);		/* 		when clicked the top line will rotate 45 degrees from the top to cross the the bottom line which would also rotate		*/
 
 	}
 
