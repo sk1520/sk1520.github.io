@@ -345,8 +345,9 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 								 .image-container:hover{
 								 	position: relative;
-									transform: scale(1.01,1.01);
+									-ms-transform:scale(1.01,1.01);
 									-webkit-transform: scale(1.01,1.01);
+									transform: scale(1.01,1.01);
 									z-index: 1;
 								}
 
@@ -419,6 +420,9 @@ h1{									/*            styles the font and etc... of all h1 elements         
 							height: auto;
 							top: 1em;
 							vertical-align: top;
+							-webkit-transition:2s;
+							-ms-transition:2s;
+							-o-transition:2s;
 							transition: 2s;
 							z-index: 4;
 
@@ -657,6 +661,9 @@ h1{									/*            styles the font and etc... of all h1 elements         
 		background:#231E22;
 		width: 100%;
 		height: 100%;
+		-webkit-transition:1s;
+		-ms-transition:1s;
+		-o-transition:1s;
 		transition: 1s; /* 		seconds to transition in			*/
 		
 		z-index: 100;
@@ -736,6 +743,9 @@ h1{									/*            styles the font and etc... of all h1 elements         
 		background-color: 	#D3D3D3;
 		position: absolute;			/* 		makes sure it doesnt move other elements inside the webpage			*/
 		top: 35px;
+		-webkit-transition:.10s;
+		-ms-transition:.10s;
+		-o-transition:.10s;
 		transition: .10s;	
 	  border-radius:15%;}	/* 			when clicked how long it takes to animate to x and back		*/
 
@@ -749,6 +759,9 @@ h1{									/*            styles the font and etc... of all h1 elements         
 			width: 100%;
 			height: 5px;
 			background-color: 	#D3D3D3;
+			-webkit-transition:.3s;
+			-ms-transition:.3s;
+			-o-transition:.3s;
 			transition: .3s;
 		}
 
@@ -761,6 +774,9 @@ h1{									/*            styles the font and etc... of all h1 elements         
 					width: 100%;
 					height: 5px;
 					background-color: 	#D3D3D3;
+					-webkit-transition:.3s;
+					-ms-transition:.3s;
+					-o-transition:.3s;
 					transition: .3s;
 				}
 
@@ -956,11 +972,11 @@ h1{									/*            styles the font and etc... of all h1 elements         
 						.gallery{
 							position: static;
 							display: block;
-						clear: both;
-						width: 50%;
-						height:auto; 
-						margin:auto;
-						margin-top:.6em;
+							clear: both;
+							width: 50%;
+							height:auto; 
+							margin:auto;
+							margin-top:.6em;
 						}
 
 							.gallery:hover{
