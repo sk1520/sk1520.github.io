@@ -915,6 +915,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 			 .image-container:hover{
 			 	position: relative;
 				transform: none;
+				-ms-transform: none;
 				-webkit-transform: none;
 				
 			}
@@ -964,6 +965,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 							.gallery:hover{
 								transform: scale(1.4,1.4);
+								-ms-transform:scale(1.4,1.4);
 							}
 
 
