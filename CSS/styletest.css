@@ -277,6 +277,7 @@ hr{ 				/* horizantal line */
 				margin:auto;	
 				border-radius: 99%;
 				width: 30%;
+				border-style: solid;
 			
 			}
 				#pic-1{
@@ -292,8 +293,8 @@ hr{ 				/* horizantal line */
 
 
 							.describing-what-we-do{
-								font-weight: bold;
-								letter-spacing: 0px;
+								font-weight: 400;
+								letter-spacing: 1px;
 								position: relative;
 								border-top:1px solid grey;
 								margin:auto;
@@ -659,10 +660,12 @@ h1{									/*            styles the font and etc... of all h1 elements         
 		}
 
 .about-pic-container{
+	
 
 }
 		.about-pic-container img{
-			width: 50%;
+			width: 45%;
+			height: 100%;
 			display: block;
 			margin:auto;
 			border:1px solid black;
@@ -671,15 +674,17 @@ h1{									/*            styles the font and etc... of all h1 elements         
 		}
 
 .about-description{
-	width: 55%;
+	width: 50%;
 	margin:auto;
-	margin-top: 10px;
+	margin-top: 23px;
 
 }
 		.about-description p{
-			line-height: 1em;
-			font-size: 30px;
+			line-height: 1.5em;
+			font-size: 24px;
+			font-size: 1.4em;
 			text-align: justify;
+			font-weight: lighter;
 			font-family:"Cera Pro", 
 						"HelveticaNeue", 
 						"Helvetica Neue", 
