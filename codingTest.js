@@ -25,7 +25,7 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
 
 
 
-function scrollTo (){
+function scrollTo (){//
   $("#scroll-button").click(function(){
     $("html,body").animate({
       scrollTop: $('.list-descriptions-container').offset().top
