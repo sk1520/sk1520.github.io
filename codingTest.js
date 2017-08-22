@@ -31,14 +31,14 @@ function scrollTo (){// scrolling down to we offer div when button is clicked
             $("html,body").animate({
               scrollTop: $('.list-descriptions-container').offset().top-15
 
-            },2000)
+            },1400)
           })
         }
                 else{// scroll stops a little earlier in mobile 
                     $("#scroll-button").click(function(){
                       $("html, body").animate({
                         scrollTop: $(".list-descriptions-container").offset().top-100
-                      },2000)
+                      },1400)
                     })
                   }
    };
