@@ -26,6 +26,17 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
 
 
 
+  $("#scroll-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".list-descriptions-container").offset().top
+    }, 2000);
+    return false;
+});
+
+
+
+
+
     function startSlider() {
       if ( $(window).width() > 800) {      
  
@@ -73,7 +84,7 @@ function mobileSlider() {
 
     startSlider();
     mobileSlider();
-
+    scrollTo();
 
 
 

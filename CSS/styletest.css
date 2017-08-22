@@ -225,6 +225,22 @@ hr{ 				/* horizantal line */
 								"Arial", 
 								sans-serif;
 				}
+
+
+.scroll-button-container{
+	position: relative;
+	border-style: solid;
+	width: 20%;
+	margin:auto;
+	
+	margin:auto;
+	text-align: center;
+}
+	#scroll-button{
+		border-style: solid;
+		margin:auto;
+		text-align: center;
+	}
 /*---------------------Describing what we do------------------------------------------------------------------------------------------------------------------------*/
 
 .list-descriptions-container{ /* container of the images and descriptions of service offer*/
@@ -918,7 +934,89 @@ h1{									/*            styles the font and etc... of all h1 elements         
 						margin:0;
 					}
 
+/*----------WHAT WE OFFER------------------------------*/
 
+.list-descriptions-container{ /* container of the images and descriptions of service offer*/
+	margin-top: 1em;
+	border-top: 4px solid rgba(204,204,204, .1);
+	border-bottom: 4px solid rgba(204,204,204, .1); 
+	text-align: center;
+	border-style: solid;
+	overflow:hidden;
+}
+
+	.offer{ /*styles the "we offer" h1 */
+		font-family:"Cera Pro", 
+					"HelveticaNeue", 
+					"Helvetica Neue", 
+					"HelveticaNeueRoman", 
+					"HelveticaNeue-Roman", 
+					"Helvetica Neue Roman", 
+					"TeXGyreHerosRegular", 
+					"Helvetica", 
+					"Tahoma", 
+					"Geneva", 
+					"Arial", 
+					sans-serif;
+					letter-spacing: .5em;
+					font-size: 3em;
+					text-align: center;
+					margin:auto;
+					padding-bottom: 10px;
+
+		width: 30%;
+		margin:auto;
+		border-bottom: 1px solid grey;
+		border:1px solid red;
+		text-align: center;
+	
+	}
+
+
+		.list-description{
+			position: relative;
+			width: 30%;
+			display: table;
+		
+			border:2px solid blue;
+			
+			left: 0;
+			vertical-align: top;
+		}
+
+			.pic-descriptions{
+				position: relative;
+				display: block;
+				text-align: center;
+				margin:auto;	
+				border-radius: 99%;
+				width: 30%;
+				border-style: solid;
+			
+			}
+				#pic-1{
+					width: 30%;
+				}
+					#pic-2{
+						width: 30%;
+						height: 8em;
+					}
+						#pic-3{
+							height: 8em;
+						}
+
+
+							.describing-what-we-do{
+								font-weight: 400;
+								letter-spacing: 1px;
+								position: relative;
+								border-top:1px solid grey;
+								margin:auto;
+								margin-top: 1em;
+								padding-top: 1em;
+								padding-bottom: 4em;
+								width: 65%;
+							}
 
 /* -------------------------------------sliding images----------------------------------------------------------------------*/
 .par-image-container{
