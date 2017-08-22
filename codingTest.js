@@ -25,8 +25,8 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
 
 
 
-function scrollTo (){//
-          if ($(window).width() > 800) {
+function scrollTo (){// scrolling down to we offer div when button is clicked
+          if ($(window).width() > 800) {//scrolls to certain point if certain screen size is met
           $("#scroll-button").click(function(){
             $("html,body").animate({
               scrollTop: $('.list-descriptions-container').offset().top-15
@@ -34,7 +34,7 @@ function scrollTo (){//
             },2000)
           })
         }
-                else{
+                else{// scroll stops a little earlier in mobile 
                     $("#scroll-button").click(function(){
                       $("html, body").animate({
                         scrollTop: $(".list-descriptions-container").offset().top-100
@@ -47,7 +47,7 @@ function scrollTo (){//
 
 
 
-    function startSlider() {
+    function startSlider() { // slider changes pictures
       if ( $(window).width() > 800) {      
  
 
@@ -65,7 +65,7 @@ function scrollTo (){//
       }
 
 
-function mobileSlider() {
+function mobileSlider() {//slider changes pictures in mobile
       if ( $(window).width() < 800) {      
   //Add your javascript for large screens here 
 
@@ -83,12 +83,12 @@ function mobileSlider() {
       }
  
 
-    function pauseSlider() {
+    function pauseSlider() {//will pause if mouse hovers over one of the pictures in the slider
         clearInterval(interval);
     }
 
     if ($(window).width()>600){
-    $slideContainer.on('mouseenter', pauseSlider).on('mouseleave', startSlider);}
+    $slideContainer.on('mouseenter', pauseSlider).on('mouseleave', startSlider);}//pauses the slider if mouse enters and resumes when mouse leaves
 
 
 
