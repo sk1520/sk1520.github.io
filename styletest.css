@@ -237,6 +237,7 @@ hr{ 				/* horizantal line */
 	text-align: center;
 }
 	#scroll-button{
+
 		border-style: solid;
 		margin:auto;
 		text-align: center;
@@ -297,19 +298,21 @@ hr{ 				/* horizantal line */
 			
 			}
 				#pic-1{
-					width: 30%;
+					width: 180px;
+					height: 180px;	
 				}
 					#pic-2{
-						width: 30%;
-						height: 8em;
+						width: 180px;
+						height:180px;
 					}
 						#pic-3{
-							height: 8em;
+							width: 180px;
+							height: 180px;
 						}
 
 
 							.describing-what-we-do{
-								font-weight: 400;
+								font-weight: 500;
 								letter-spacing: 1px;
 								position: relative;
 								border-top:1px solid grey;
@@ -940,7 +943,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	margin-top: 1em;
 	border-top: 4px solid rgba(204,204,204, .1);
 	border-bottom: 4px solid rgba(204,204,204, .1); 
-	text-align: center;
+	position: relative;
 	border-style: solid;
 	overflow:hidden;
 }
@@ -964,58 +967,76 @@ h1{									/*            styles the font and etc... of all h1 elements         
 					margin:auto;
 					padding-bottom: 10px;
 
-		width: 30%;
+		width: 50%;
 		margin:auto;
 		border-bottom: 1px solid grey;
-		border:1px solid red;
-		text-align: center;
+		
+		display: inline-block;
 	
 	}
 
 
 		.list-description{
 			position: relative;
-			width: 30%;
-			display: table;
-		
-			border:2px solid blue;
+			width: 90%;
+			height: 300px;
 			
-			left: 0;
-			vertical-align: top;
+			
+			
+	
+			display: flex;
+			margin:0;
+			
 		}
 
 			.pic-descriptions{
 				position: relative;
-				display: block;
-				text-align: center;
+				
+				
 				margin:auto;	
 				border-radius: 99%;
 				width: 30%;
-				border-style: solid;
+				]
 			
 			}
 				#pic-1{
-					width: 30%;
+					position:relative;
+					
+					width: 200px;
+					height: 200px;
 				}
 					#pic-2{
-						width: 30%;
-						height: 8em;
+						
+						position:relative;
+					
+						width: 200px;
+						height: 200px;
 					}
 						#pic-3{
-							height: 8em;
+							
+							width: 200px;
+							position:relative;
+						
+							height: 200px;
 						}
 
 
 							.describing-what-we-do{
-								font-weight: 400;
-								letter-spacing: 1px;
 								position: relative;
-								border-top:1px solid grey;
-								margin:auto;
+								font-weight: bold;
+								letter-spacing: 1px;
+								border:none;
+								border-left:1px solid grey;
+							
+								margin:0;
 								margin-top: 1em;
 								padding-top: 1em;
 								padding-bottom: 4em;
-								width: 65%;
+								padding-left: 2em;
+								width: 50%;
+								height: 20%;
+								left: 0;
+								margin:auto;
 							}
 
 /* -------------------------------------sliding images----------------------------------------------------------------------*/
