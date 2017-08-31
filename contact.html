@@ -12,7 +12,7 @@
 
 
 	<title>
-	menu
+	Contact
 		
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=.5, maximum-scale=1">
@@ -40,7 +40,7 @@
 				<ul class="menu-buttons">
 				<li>  <a href="index.html"> Home</a>     </li>
 				<li>  <a href="menu.html"> Menu</a>     </li>
-				<li>  <a href="Contact.html"> Contact</a>  </li>
+				<li>  <a href="contact.html"> Contact</a>  </li>
 				<li>  <a href="about.html"> About</a>    </li>
 				</ul>
 			</div> 						<!-- ending of Menu  -->
@@ -89,50 +89,43 @@
 <!-- ***************************** PAGE BODY CONTENT ************************************************************************************************************** -->
 
 	<div id="content">
-		<div class="menu-header"> <h1>Weekly Menu</h1> 
+			<div class="contact-us-container" ><h1>Contact Us</h1></div>
+			<div class="contact-us-paragraph"><p>Please dont hesitate to message us with any questions you have about what we do, or if you would like to sign up for our services! we will get back to you in 24 hours.</p></div>
 
-		<h2>Menu is up every Wednesday , get your orders by Friday morning. Come and pick your meals up next Monday and Thursday at <a href="http://www.c1mma.com" target="_blank"> Class One MMA </a>, ( <a href="https://www.google.com/maps/dir/''/class+one/@40.6797005,-73.9966461,14.08z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25ab661625807:0xd801c30b264af7ba!2m2!1d-73.979855!2d40.681512" target="_blank">85 4th Ave, Brooklyn, NY 11217</a> )
-		</h2>
+			<div class="contact-information-container">
+				
+				<div class="Contact-container">
+					<form id="concat-form">
+						<label for="Fname">First Name</label>
+						<input type="text" id="Fname" name="firstname" placeholder="Your First Name...">
 
-		</div>	
+						<label for="Lname">Last Name</label>
+						<input type="text" id="Lname" name="lastname" placeholder="Your Last Name...">
 
-		<div class="menu-container">
-			<div class="entrees-container">
-				<h1>Entrees (Week 8/22)</h1>
+						<label for="Email">Email</label>
+						<input type="text" id="Email" name="Email" placeholder="Email...">
 
-				<div class="entree-menu"> 
-						 
-							<h2>Beef Meatballs <span class="price">$10</span></h2> <!-- main part of the course -->
-							<h3>Couscous, Market Vegetables </h3>				<!-- additional side courses-->
-							<p>5-6 oz Carbs, Protein</p>
-											<!-- amount of oz -->
-				 </div>
+						<label for="subject">subject</label>
+						<input type="text" id="subject" name="subject" placeholder="subject...">
 
-				 <div class="entree-menu"> 
-							<h2>Vegetable Lasagna <span class="price">$10</span></h2>				<!-- main part of the course -->
-							<h3>Market Salad</h3>				<!-- additional side of the courses-->
-							<p>5-6 oz Carbs, Protein</p>					<!-- amount of oz -->
-				 </div>
+						<label for="message">message</label>
+						<textarea id="message" name="message" placeholder="write your message..."  ></textarea>
 
-				 <div class="entree-menu"> 
-							<h2>Chicken Terayaki <span class="price">$10</span></h2>				<!-- main part of the course -->
-							<h3>White Rice, Vegetables</h3>				<!-- additional side of the courses-->
-							<p>5-6 oz Carbs, Protein</p>					<!-- amount of oz -->
-				 </div>
+					</form>
 
-				 <div class="entree-menu"> 
-							<h2>Stuffed Chicken <span class="price">$10</span></h2>				<!-- main part of the course -->
-							<h3>Beet Salad</h3>				<!-- additional side of the courses-->
-							<p>5-6 oz Carbs, Protein</p>					<!-- amount of oz -->
-				 </div>
+				</div>
+
+
+				<div class="map-par-container">
+					<h2>pick up location <br>
+					85 4th Ave, Brooklyn, NY 11217</h2>
+					<div id="map"> </div>
+				</div>
 
 
 			</div>
 
-
-		</div>
-
-
+		
 
 	</div>
 
@@ -150,5 +143,8 @@
 <!--<script src="codingTest.js"></script>
 <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
 <script src='js/main.js'></script>-->
+ <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ5f8oQutRveajIT2H8w953faMfMJSht8&callback=initMap">
+    </script>
 </body>
 </html>

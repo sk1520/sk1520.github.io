@@ -256,7 +256,6 @@ hr{ 				/* horizantal line */
 					right: 0;
 					color:white;
 					bottom:3em;
-						
 					width: 4%;
 				}
 
@@ -314,7 +313,7 @@ hr{ 				/* horizantal line */
 				margin:auto;	
 				border-radius: 99%;
 				width: 30%;
-				border-style: solid;
+				border: 1.5px solid black;
 			
 			}
 				#pic-1{
@@ -560,7 +559,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 			letter-spacing: .3em;
 			font-size: 3em;
 			text-align: center;
-			border-bottom: 4px solid black;
+			border-bottom: 2px solid black;
 			width: 35%;
 			margin:auto;
 			padding-bottom: 10px;
@@ -606,7 +605,6 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	margin:auto;
 	text-align: center;
 	padding:3em 0 0 0;
-	
 	height: 50vh;
 }
 		.entrees-container h1{
@@ -615,7 +613,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 			margin:auto;
 			font-weight: 600;
 			font-style: italic;
-			border-top: 2px solid grey;
+			border-top: 1.5px solid grey;
 			font-size: 40px;	
 		}
 
@@ -692,7 +690,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 			    letter-spacing: .3em;
 			    font-size: 3em;
 			    text-align: center;
-			    border-bottom: 4px solid black;
+			    border-bottom: 2px solid black;
 			    width: 35%;
 			    margin: auto;
 			    padding-bottom: 10px;
@@ -737,6 +735,106 @@ h1{									/*            styles the font and etc... of all h1 elements         
 						"Arial", 
 						sans-serif;
 		}
+
+
+/*-------------------CONTACT PAGE*------------------------------------------------*/
+
+.contact-us-container{	/*container for contact us header*/
+	margin:auto;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 25px;	
+}
+	.contact-us-container h1{	/* styles the "contact us"*/
+				letter-spacing: .3em;
+			    font-size: 3em;
+			    text-align: center;
+			    border-bottom: 2px solid black;
+			    width: 35%;
+			    margin: auto;
+			    padding-bottom: 10px;
+	}
+
+.contact-us-paragraph{
+	
+	width: 54%;
+	margin:auto;
+	padding-bottom: 15px;
+	border-bottom: 1.5px solid grey;
+}	
+	.contact-us-paragraph p{
+		font-size: 24px;
+	}
+
+
+
+
+.contact-information-container{
+	
+	margin:auto;
+	margin-top: 100px;
+
+	width: 90%;
+	height: 650px;
+	position: relative;
+	
+}
+
+ .Contact-container{
+ 	border-radius:1%;
+ 	margin-left: 1%;
+ 	border:1px solid #ccc;
+	width: 50%;
+	height: 90%;
+	display: inline-block;
+	background-color: #f2f2f2;
+	overflow: scroll;
+	
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1.5px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+	label{
+		font-size: 23px;	
+		font-weight:lighter;
+		
+	}	
+		textarea{
+			min-height: 100px;
+		}
+
+.map-par-container {
+	text-align: center;
+
+	width: 750px;
+	display:inline-block;
+	margin-left: 3%;
+}
+
+	.map-par-container h2{
+		letter-spacing: 5px;
+		text-align: center;
+		line-height:50px;
+	}
+
+
+
+#map{
+
+	border-radius: 10px;
+	width: 750px;
+	height: 580px;
+}
+	
 
 
 /* Phone website--------------------------------------------------------------------------------------------------------- */

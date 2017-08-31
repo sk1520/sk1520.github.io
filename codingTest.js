@@ -21,6 +21,7 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
     var $slides = $slideContainer.find('.slide');
 
     var interval;
+    var $googMaps= $('.google-maps-container');
 //console.log($slides.length);
 
 
@@ -43,7 +44,20 @@ function scrollTo (){// scrolling down to we offer div when button is clicked
                   }
    };
 
-
+  function myMap() {
+        var location = {lat: 40.681512, lng: -73.979855};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          zoom: 13,
+          center: location
+        });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map,
+          title: 'class one mixed martial arts',
+          label: 'C1MMA'
+        });
+      }
 
 
 
@@ -95,9 +109,9 @@ function mobileSlider() {//slider changes pictures in mobile
     startSlider();
     mobileSlider();
     scrollTo();
+    myMap();
 
-
-
+google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
