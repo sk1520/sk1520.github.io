@@ -760,7 +760,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	width: 54%;
 	margin:auto;
 	padding-bottom: 15px;
-	border-bottom: 1.5px solid grey;
+	
 }	
 	.contact-us-paragraph p{
 		font-size: 24px;
@@ -772,8 +772,9 @@ h1{									/*            styles the font and etc... of all h1 elements         
 .contact-information-container{
 	
 	margin:auto;
-	margin-top: 100px;
-
+	margin-top: 40px;
+	padding-top: 10px;
+	border-top: .2px solid grey;
 	width: 90%;
 	height: 650px;
 	position: relative;
@@ -784,7 +785,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
  	border-radius:1%;
  	margin-left: 1%;
  	border:1px solid #ccc;
-	width: 50%;
+	width: 45%;
 	height: 90%;
 	display: inline-block;
 	background-color: #f2f2f2;
@@ -815,7 +816,7 @@ input[type=text], select, textarea {
 .map-par-container {
 	text-align: center;
 
-	width: 750px;
+	width: 45%;
 	display:inline-block;
 	margin-left: 3%;
 }
@@ -831,7 +832,7 @@ input[type=text], select, textarea {
 #map{
 
 	border-radius: 10px;
-	width: 750px;
+	width: 100%;
 	height: 580px;
 }
 	
