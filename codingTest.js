@@ -24,6 +24,13 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
     var $googMaps= $('.google-maps-container');
 //console.log($slides.length);
 
+function toggleClass (){
+   $('.sidebarBtn').on('click',function(){    //in mobile it registers a click twice so you have to set it off first and then on 
+      $('.sidebar').toggleClass('active'); //when you click the sidebar button it will activate the active css class to the .sidebar class
+      $(this).toggleClass('toggle');  //when the button is clicked it will give it toggle to switch to X and switch back to hamburger menu if clicked on X
+    });
+}
+
 
 
 function scrollTo (){// scrolling down to we offer div when button is clicked
@@ -109,9 +116,8 @@ function mobileSlider() {//slider changes pictures in mobile
     startSlider();
     mobileSlider();
     scrollTo();
+    toggleClass();
     myMap();
-
-google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
@@ -127,10 +133,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
     
 
-    $('.sidebarBtn').on('click',function(){    //in mobile it registers a click twice so you have to set it off first and then on 
-      $('.sidebar').toggleClass('active'); //when you click the sidebar button it will activate the active css class to the .sidebar class
-      $(this).toggleClass('toggle');  //when the button is clicked it will give it toggle to switch to X and switch back to hamburger menu if clicked on X
-    });
+   
  
 
 });
