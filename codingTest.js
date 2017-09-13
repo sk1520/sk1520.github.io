@@ -55,7 +55,7 @@
 
 
     //startSlider(); // moves image by pixels to the right to change pictures with slide effect*/
-
+    // mobileSlider(); //does the same but different dimensions on mobile
 
 
                 
@@ -136,7 +136,7 @@ function scrollTo (){// scrolling down to we offer div when button is clicked
   function prevNext(){
   $nextBtn.click(function(){
     $slideContainer.animate({'margin-left':'-='+ width},animationSpeed, function(){ 
-      alert("button was clicked")
+     
       currentSlide++;
               console.log(currentSlide);  
                 if (currentSlide == $slides.length) {
@@ -150,10 +150,14 @@ function scrollTo (){// scrolling down to we offer div when button is clicked
 
   $prevBtn.click(function(){
     $slideContainer.animate({'margin-left':'+='+ width},animationSpeed, function(){ 
-      alert("button was clicked")
+      
       currentSlide++;
-              console.log(currentSlide);  
-                if (currentSlide == $slides.length) {
+      var margin= parseInt($slideContainer.css('margin-left'), 10);
+      
+      console.log(margin);
+     // console.log($slides.length)
+           //   console.log(currentSlide);  
+                if (currentSlide == $slides.length || margin >0 ) {
                     currentSlide = 1;
                     $slideContainer.css('margin-left', 0);
                 }
@@ -163,7 +167,7 @@ function scrollTo (){// scrolling down to we offer div when button is clicked
 };
 
     prevNext();
-    mobileSlider(); //does the same but different dimensions on mobile.
+   
     scrollTo(); //when the button is clicked moves the page to the content from the top web pictures.
     toggleClass();  //when the hamburger icon is clicked it toggles a class to slide in and show the menu
     
