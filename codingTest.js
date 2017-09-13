@@ -2,6 +2,59 @@
 //https://codepen.io/anon/pen/OgZppL
 
 
+  // function startSlider() { // slider changes pictures
+      /*if ( $(window).width() > 800) {     }} 
+ 
+
+       /* interval = setInterval(function() {
+          
+            $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
+              currentSlide++;
+              
+              console.log(currentSlide);  
+                if (currentSlide == $slides.length) {
+                    currentSlide = 1;
+                    $slideContainer.css('margin-left', 0);
+                    clearInterval(interval);
+                }
+            });
+        }, pause)}
+      }*/
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+/*function mobileSlider() {//slider changes pictures in mobile
+      if ( $(window).width() < 800) {      
+  //Add your javascript for large screens here 
+
+        interval = setInterval(function() {
+            $slideContainer.animate({'margin-left': '-='+400}, animationSpeed, function() {
+              currentSlide++;
+
+              console.log(currentSlide);  
+                if (currentSlide == $slides.length) {
+                    currentSlide = 1;
+                    $slideContainer.css('margin-left', 0);
+                }
+            });
+        }, pause)}
+      }
+ /*----------------------------------------------------------------------------------------------------------*/
+
+  /*  function pauseSlider() {//will pause if mouse hovers over one of the pictures in the slider
+        clearInterval(interval);
+    }
+
+   /* if ($(window).width()>600){
+    $slideContainer.on('mouseenter', pauseSlider).on('mouseleave', startSlider);}//pauses the slider if mouse enters and resumes when mouse leaves
+/*----------------------------------------------------------------------------------------------------------*/
+
+
+    //startSlider(); // moves image by pixels to the right to change pictures with slide effect*/
 
 
 
@@ -109,59 +162,6 @@ function scrollTo (){// scrolling down to we offer div when button is clicked
 
 };
 
-   function startSlider() { // slider changes pictures
-      if ( $(window).width() > 800) {      
- 
-
-        interval = setInterval(function() {
-          prevNext();
-            $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
-              currentSlide++;
-              
-              console.log(currentSlide);  
-                if (currentSlide == $slides.length) {
-                    currentSlide = 1;
-                    $slideContainer.css('margin-left', 0);
-                    clearInterval(interval);
-                }
-            });
-        }, pause)}
-      }
-
-
-
-
-
-
-/*----------------------------------------------------------------------------------------------------------*/
-function mobileSlider() {//slider changes pictures in mobile
-      if ( $(window).width() < 800) {      
-  //Add your javascript for large screens here 
-
-        interval = setInterval(function() {
-            $slideContainer.animate({'margin-left': '-='+400}, animationSpeed, function() {
-              currentSlide++;
-
-              console.log(currentSlide);  
-                if (currentSlide == $slides.length) {
-                    currentSlide = 1;
-                    $slideContainer.css('margin-left', 0);
-                }
-            });
-        }, pause)}
-      }
- /*----------------------------------------------------------------------------------------------------------*/
-
-  /*  function pauseSlider() {//will pause if mouse hovers over one of the pictures in the slider
-        clearInterval(interval);
-    }
-
-   /* if ($(window).width()>600){
-    $slideContainer.on('mouseenter', pauseSlider).on('mouseleave', startSlider);}//pauses the slider if mouse enters and resumes when mouse leaves
-/*----------------------------------------------------------------------------------------------------------*/
-
-
-    startSlider(); // moves image by pixels to the right to change pictures with slide effect*/
     prevNext();
     mobileSlider(); //does the same but different dimensions on mobile.
     scrollTo(); //when the button is clicked moves the page to the content from the top web pictures.
