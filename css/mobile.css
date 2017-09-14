@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px){ 	/*    sets to activate the css when screen is equal to or less than the pixels set                                     */
+@media screen and (max-width: 1200px){ 	/*    sets to activate the css when screen is equal to or less than the pixels set                                     */
 	
 	.sidebar{		/* 	side bar container				*/
 		display: block;
@@ -248,7 +248,7 @@
 				margin:auto;
 				border-bottom: 2px solid black;
 				display: inline-block;
-			}
+					}
 
 
 		.list-description{
