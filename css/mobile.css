@@ -238,7 +238,7 @@
 					"Geneva", 
 					"Arial", 
 					sans-serif;
-					letter-spacing: .5em;
+					letter-spacing: .3em;
 					font-size: 3em;
 					text-align: center;
 					margin:auto;
@@ -246,7 +246,7 @@
 
 		width: 50%;
 		margin:auto;
-		border-bottom: 1px solid grey;
+		border-bottom: 2px solid black;
 		
 		display: inline-block;
 	
@@ -462,10 +462,20 @@
 /*MENU MOBILE PAGE*----------------------------------------------------*/
 .menu-header{
 	margin-top: 10em;
+	
 }
 
 
-
+		.menu-header h1 {
+			    letter-spacing: .3em;
+			    font-size: 3em;
+			    text-align: center;
+			    border-bottom: 2px solid black;
+			    width: 70%;
+			    margin: auto;
+			    padding-bottom: 10px;
+			   
+			}
 
 
 
@@ -518,11 +528,11 @@
 	margin-bottom: 25px;	
 }
 	.contact-us-container h1{	/* styles the "contact us"*/
-				letter-spacing: .3em;
+				letter-spacing: .2em;
 			    font-size: 3em;
 			    text-align: center;
 			    border-bottom: 2px solid black;
-			    width: 35%;
+			    width: 57%;
 			    margin: auto;
 			    padding-bottom: 10px;
 	}
