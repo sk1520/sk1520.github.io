@@ -385,10 +385,15 @@ h1{									/*            styles the font and etc... of all h1 elements         
 		    text-transform: capitalize;
 		}
 
+			.image-container img{
+				margin:auto;
+				display: block;
+				height: 720px;
+				width: 75%;
+			}
 
-
-			.image-container{	/*               positions the image container as well as the color of the background                          */
-			  overflow: hidden;
+			/*.image-container{	/*               positions the image container as well as the color of the background                          */
+			 /* overflow: hidden;
 			  position:relative;
 			   margin:auto;
 			  width: 1000px;
@@ -399,7 +404,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 			}
 
 				.image-container .next{	/*positions next button for next image*/
-					border:1px solid blue;
+			/*		border:1px solid blue;
 					position:absolute;
 					background-color:white;
 					top:50%;
@@ -408,17 +413,17 @@ h1{									/*            styles the font and etc... of all h1 elements         
 					cursor:pointer;
 
 					-webkit-touch-callout: none; /* iOS Safari */
-				    -webkit-user-select: none; /* Safari */
-				    -khtml-user-select: none; /* Konqueror HTML */
-				    -moz-user-select: none; /* Firefox */
-				    -ms-user-select: none; /* Internet Explorer/Edge */
+				/*    -webkit-user-select: none; /* Safari 
+				    -khtml-user-select: none; /* Konqueror HTML 
+				    -moz-user-select: none; /* Firefox 
+				    -ms-user-select: none; /* Internet Explorer/Edge 
 				     user-select: none;
 				}
 				.next:hover{
 					background-color:yellow;
 				}
 
-				.image-container .prev{/*positions previous button for previous image*/
+				.image-container .prev{/*positions previous button for previous image/
 					border:1px solid blue;
 					position:absolute;
 					background-color:white;
@@ -427,11 +432,11 @@ h1{									/*            styles the font and etc... of all h1 elements         
 					z-index: 1;
 					cursor:pointer;
 
-					-webkit-touch-callout: none; /* iOS Safari */
-				    -webkit-user-select: none; /* Safari */
-				    -khtml-user-select: none; /* Konqueror HTML */
-				    -moz-user-select: none; /* Firefox */
-				    -ms-user-select: none; /* Internet Explorer/Edge */
+					-webkit-touch-callout: none; /* iOS Safari /
+				    -webkit-user-select: none; /* Safari /
+				    -khtml-user-select: none; /* Konqueror HTML /
+				    -moz-user-select: none; /* Firefox /
+				    -ms-user-select: none; /* Internet Explorer/Edge /
 				     user-select: none;
 				}
 
@@ -475,7 +480,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 											-webkit-transform: scale(1.01,1.01);
 											transform: scale(1.01,1.01);
 											z-index: 1;
-										}
+										}*/
 
 
 /*_______________________________Satisfied Customers______________________________________________________*/

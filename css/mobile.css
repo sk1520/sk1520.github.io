@@ -221,7 +221,6 @@
 	border-top: 4px solid rgba(204,204,204, .1);
 	border-bottom: 4px solid rgba(204,204,204, .1); 
 	position: relative;
-	border-style: solid;
 	overflow:hidden;
 }
 
@@ -329,8 +328,14 @@
 			margin-bottom: .1em;
 		}
 
-			.image-container{	/*               positions the image container as well as the color of the background                          */
-				position: relative;
+			.image-container img{
+				width: 90%;
+				height: 720px;
+				border-style: solid;
+			}
+
+			/*.image-container{	/*               positions the image container as well as the color of the background                          */
+				/*position: relative;
 			  overflow: hidden;
 			  border:3px solid black;
 			  width: 400px;
@@ -343,7 +348,7 @@
 			  
 			}
 
-				 .slides{
+				/* .slides{
 				 
 					display: block;
 					width: 6000px; 

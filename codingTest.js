@@ -60,8 +60,11 @@
 
                 
           
+(function(document,window,$){
 
 $(function() { //jquery line of code to tell for the everything to be loaded before running scripts
+
+  
     var width = 1000;
     var percents= parseInt()
     var animationSpeed = 2000;
@@ -83,6 +86,8 @@ $(function() { //jquery line of code to tell for the everything to be loaded bef
     var $googMaps= $('.google-maps-container');
 //console.log($slides.length);
 /*----------------------------------------------------------------------------------------------------------*/
+
+
 function toggleClass (){
    $('.sidebarBtn').on('click',function(){    //in mobile it registers a click twice so you have to set it off first and then on 
       $('.sidebar').toggleClass('active'); //when you click the sidebar button it will activate the active css class to the .sidebar class
@@ -92,7 +97,9 @@ function toggleClass (){
 
 /*----------------------------------------------------------------------------------------------------------*/
 
-
+ $('.image-container').slick({
+        
+      });
 
 
 
@@ -167,9 +174,7 @@ function scrollTo (){// scrolling down to we offer div when button is clicked
 };
 
 $(document).ready(function(){
-  $('.your-class').slick({
-   
-  });
+  $('.your-class').slick({ });
 });
       
     prevNext();
@@ -197,3 +202,4 @@ $(document).ready(function(){
  
 
 });
+})(document,window,jQuery);
