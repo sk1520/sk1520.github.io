@@ -385,13 +385,38 @@ h1{									/*            styles the font and etc... of all h1 elements         
 		    text-transform: capitalize;
 		}
 
+
+		.image-container{
+			width: 75%;
+			margin:auto;	
+			border-style:solid;	
+
+		}
 			.image-container img{
 				margin:auto;
 				display: block;
 				height: 760px;
-				width: 75%;
+				width: 100%;
 			}
 
+				.slick-prev{
+					left:-4.3%;
+					z-index: 1;
+				}
+				.slick-prev:before{
+					color:grey;
+					font-size: 50px;
+				}
+
+				.slick-next{
+					
+					z-index: 1;
+				}
+
+				.slick-next:before{
+					color:grey;
+					font-size: 50px;
+				}
 			/*.image-container{	/*               positions the image container as well as the color of the background                          */
 			 /* overflow: hidden;
 			  position:relative;
@@ -423,22 +448,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 					background-color:yellow;
 				}
 
-				.image-container .prev{/*positions previous button for previous image/
-					border:1px solid blue;
-					position:absolute;
-					background-color:white;
-					top:50%;
-					left:0;
-					z-index: 1;
-					cursor:pointer;
-
-					-webkit-touch-callout: none; /* iOS Safari /
-				    -webkit-user-select: none; /* Safari /
-				    -khtml-user-select: none; /* Konqueror HTML /
-				    -moz-user-select: none; /* Firefox /
-				    -ms-user-select: none; /* Internet Explorer/Edge /
-				     user-select: none;
-				}
+				
 
 					.prev:hover{
 						background-color:yellow;
@@ -791,7 +801,8 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	margin:auto;
 	width: 100%;
 	margin-top: 50px;
-	margin-bottom: 25px;	
+	margin-bottom: 25px;
+
 }
 	.contact-us-container h1{	/* styles the "contact us"*/
 				letter-spacing: .3em;
@@ -830,11 +841,12 @@ h1{									/*            styles the font and etc... of all h1 elements         
 }
 
  .Contact-container{
+ 	position: relative;
  	border-radius:1%;
  	margin-left: 1%;
  	border:1px solid #ccc;
 	width: 45%;
-	height: 90%;
+	height: 100%;
 	display: inline-block;
 	background-color: #f2f2f2;
 	overflow: scroll;
@@ -851,15 +863,40 @@ input[type=text], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
 }
+	
 
 	label{
+		padding-left:5px;
 		font-size: 23px;	
 		font-weight:lighter;
-		
 	}	
+
+
+
 		textarea{
 			min-height: 150px;
 		}
+
+			.submit{
+				position: absolute;
+				width: 150px;
+				height: 50px;
+				border-radius: 10px;
+				left: 5px;
+					color: #a2a8ab;
+					box-shadow: none;
+			}
+
+				.submit:hover{
+					background-color:white; 
+					 box-shadow: 0 12px 50px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+				}
+					.submit h1{
+						text-transform: uppercase;
+						font-weight: normal;
+						color:#292729;
+
+					}
 
 .map-par-container {
 	text-align: center;
