@@ -44,10 +44,10 @@
 }
 
 		.sidebar ul li{		/* 		styles and removes the bullet from the list 			*/
-			display: block;
+			/*display: block;*/
 			list-style: none;
-		  width:100%;
-		  margin:auto;
+		  /*width:100%;*/
+		 /* margin:auto;*/
 		  
 		  padding:20px 0;
 		}
@@ -59,13 +59,27 @@
 					color: white;
 					display: block;
 					text-decoration: none;
-				  width:25%;
-				  margin:auto;
+				  	width:25%;
+				  	margin:auto;
+				  	margin-top:50px;
+				  	font-size: 30px;
 				}
 					  .sidebar ul li a:hover{
 					    color:grey;
 					   
 					  }
+
+
+					  .mobile-social-media{
+					  	margin:auto;
+					  	width: 20%;
+					  	display:inline-block;
+					  	vertical-align: top;
+					  }
+
+					  	.fa-2x{
+					  		font-size: 40px !important;
+					  	}
   /*----------------------------------styles the hamburger menu icon-----------------------------------------------------------------------------*/
 
 .sidebarBtn{			/* 		styles and positions the sidebar hamburger button 			*/

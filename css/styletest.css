@@ -389,7 +389,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 		.image-container{
 			width: 75%;
 			margin:auto;	
-			border-style:solid;	
+			
 
 		}
 			.image-container img{
@@ -884,17 +884,23 @@ input[type=text], select, textarea {
 				border-radius: 10px;
 				left: 5px;
 					color: #a2a8ab;
-					box-shadow: none;
+					border:1.2px solid transparent;
+					border-right:2.3px solid grey;
+					border-bottom:2.3px solid grey;
 			}
 
+
+				.submit:active{
+					border:none;
+				}
 				.submit:hover{
 					background-color:white; 
-					 box-shadow: 0 12px 50px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-				}
+					 box-shadow: 3px 4px 30px rgba(0,0,0,0.24);
+					}
 					.submit h1{
 						text-transform: uppercase;
 						font-weight: normal;
-						color:#292729;
+						color:#505256;
 
 					}
 
