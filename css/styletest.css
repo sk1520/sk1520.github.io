@@ -849,7 +849,6 @@ h1{									/*            styles the font and etc... of all h1 elements         
 	height: 100%;
 	display: inline-block;
 	background-color: #f2f2f2;
-	overflow: scroll;
 	
 }
 
@@ -861,7 +860,7 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical ;/* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: none; ;/* Allow the user to vertically resize the textarea (not horizontally) */
 }
 	
 
@@ -879,6 +878,7 @@ input[type=text], select, textarea {
 
 			.submit{
 				position: absolute;
+				bottom:30px;
 				width: 150px;
 				height: 50px;
 				border-radius: 10px;
