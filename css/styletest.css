@@ -569,11 +569,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 						}
 
-							.gallery:hover{
-								transform: scale(1.5, 1.5);
-								background-color: white;
-								z-index: 5;
-							}
+							
 
 								.images-customer{
 									position: relative;
