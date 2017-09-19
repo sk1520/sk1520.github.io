@@ -619,7 +619,7 @@ input[type=text], select, textarea {
 
 .map-par-container {
 	text-align: center;
-
+	position: relative;
 	width: 100%;
 	display:block;
 	margin-left: 3%;
