@@ -642,7 +642,7 @@ h1{									/*            styles the font and etc... of all h1 elements         
 				}
 
 								.menu-header h2 a{
-									color: black;
+									color: rgb(139,0,0);
 									border-bottom: 1px black solid;
 									padding-bottom: 1px;
 								}

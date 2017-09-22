@@ -212,7 +212,7 @@
 		position: relative;
 			text-align: center;
 			font-size:3em;
-			letter-spacing: .1em;
+			letter-spacing: 1px;
 			font-weight: 900;
 			line-height: inherit;
 			margin:auto;
@@ -251,13 +251,13 @@
 					"Geneva", 
 					"Arial", 
 					sans-serif;
-					letter-spacing: .3em;
+					letter-spacing: 1px;
 					font-size: 3em;
 					text-align: center;
 					margin:auto;
 					padding-bottom: 10px;
 
-				width: 50%;
+				width: 30%;
 				margin:auto;
 				border-bottom: 2px solid black;
 				display: inline-block;
@@ -484,7 +484,7 @@
 
 
 		.menu-header h1 {
-			    letter-spacing: .3em;
+			    letter-spacing: 1px;
 			    font-size: 3em;
 			    text-align: center;
 			    border-bottom: 2px solid black;
@@ -511,7 +511,8 @@
 	margin-top: 10em;
 }
 	.about-us-container h1{
-		width: 50%;
+		width: 30%;
+		letter-spacing:1px;
 
 	}
 
@@ -520,18 +521,21 @@
 	margin:auto;
 }
 	.about-pic-container img{
-		width: 100%;
+		width: 75%;
 
 		border:3px solid black;
 	}
 
 .about-description{
 	margin-top: 2em;
-	width: 95%;
+	width: 74%;
+	color:black;
 }
 	.about-description p{
 		text-align: left;
 		line-height: 40px;
+		color:black;
+		text-align:justify;
 	}
 
 
@@ -549,7 +553,7 @@
 	margin-bottom: 25px;	
 }
 	.contact-us-container h1{	/* styles the "contact us"*/
-				letter-spacing: .2em;
+				letter-spacing: 1px;
 			    font-size: 3em;
 			    text-align: center;
 			    border-bottom: 2px solid black;
