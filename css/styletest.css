@@ -881,8 +881,10 @@ input[type=text], select, textarea {
 				left: 5px;
 					color: #a2a8ab;
 					border:1.2px solid transparent;
-					border-right:2.3px solid grey;
-					border-bottom:2.3px solid grey;
+					border-top:.1px solid grey;
+					border-left:.1px solid grey;
+					border-right:.1px solid grey;
+					border-bottom:3px solid grey;
 			}
 
 
