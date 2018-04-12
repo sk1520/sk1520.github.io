@@ -60,7 +60,6 @@
 
                 
           
-(function(document,window,$){
 
 $(function() { //jquery line of code to tell for the everything to be loaded before running scripts
 
@@ -97,9 +96,7 @@ function toggleClass (){
 
 /*----------------------------------------------------------------------------------------------------------*/
 
- $('.image-container').slick({
-        
-      });
+
 
 
 
@@ -202,4 +199,3 @@ $(document).ready(function(){
  
 
 });
-})(document,window,jQuery);
