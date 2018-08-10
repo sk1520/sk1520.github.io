@@ -317,7 +317,7 @@ slick-next {
 
 		width: 80%;
 		margin:auto;
-		border-bottom: 1px solid black;
+		/*border-bottom: 1px solid black;*/
 		text-align: center;
 	
 	}
@@ -780,7 +780,6 @@ h1{									/*            styles the font and etc... of all h1 elements         
 
 .about-pic-container{
 	
-
 }
 		.about-pic-container img{
 			width: 45%;
@@ -789,6 +788,10 @@ h1{									/*            styles the font and etc... of all h1 elements         
 			margin:auto;
 			border:1px solid black;
 			border-radius: 1%;
+			-webkit-box-shadow: -1px 5px 24px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: -1px 5px 24px 0px rgba(0,0,0,0.43);
+box-shadow: -1px 5px 24px 0px rgba(0,0,0,0.43);
+
 
 		}
 
