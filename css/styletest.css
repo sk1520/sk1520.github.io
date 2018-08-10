@@ -104,7 +104,7 @@ slick-next {
   background-position:center;
   background-size: contain;	
   background-repeat: no-repeat;
-  background-image:url(https://scontent-lga3-1.cdninstagram.com/vp/7abc39bbcef25a747007bcc994d7e1b3/5B5AC17A/t51.2885-19/s320x320/18161945_426639281048378_503275669220753408_a.jpg);
+  background-image:url(https://scontent-lga3-1.cdninstagram.com/vp/66a2e1b14e937e6fef8a3f5543364884/5BF8F57A/t51.2885-19/s320x320/18161945_426639281048378_503275669220753408_a.jpg);
   float:left;
   left:4em;
   width: 70px;
@@ -205,7 +205,7 @@ slick-next {
 
 .welcome-container{ /*            wrapper container for Welcome and the horizontal line                              */
 	position: relative;
-	background:url(https://scontent-lga3-1.cdninstagram.com/vp/e837a3885818d1e11d5b33e478901f78/5B574BFE/t51.2885-15/e35/19367615_1892480557681308_1451688882939625472_n.jpg);/*background image*/
+	background:url(https://scontent-lga3-1.cdninstagram.com/vp/cde3f4f26208715cba24109fe5038e19/5BF57FFE/t51.2885-15/e35/19367615_1892480557681308_1451688882939625472_n.jpg);/*background image*/
 	width: 100%;
 	height: 720px;
 	margin:auto;
@@ -288,9 +288,11 @@ slick-next {
 /*---------------------Describing what we do------------------------------------------------------------------------------------------------------------------------*/
 
 .list-descriptions-container{ /* container of the images and descriptions of service offer*/
-	margin-top: 1em;
-	border-top: 4px solid rgba(204,204,204, .1);
-	border-bottom: 4px solid rgba(204,204,204, .1); 
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	/*border-top: 4px solid rgba(204,204,204, .1);
+	border-bottom: 4px solid rgba(204,204,204, .1); */
 	text-align: center;
 }
 
@@ -307,15 +309,15 @@ slick-next {
 					"Geneva", 
 					"Arial", 
 					sans-serif;
-					letter-spacing: .5em;
+					letter-spacing: .3em;
 					font-size: 3em;
 					text-align: center;
 					margin:auto;
-					padding-bottom: 10px;
+					padding-bottom: 5px;
 
-		width: 30%;
+		width: 80%;
 		margin:auto;
-		border-bottom: 1px solid grey;
+		border-bottom: 1px solid black;
 		text-align: center;
 	
 	}
@@ -338,7 +340,10 @@ slick-next {
 				border-radius: 99%;
 				width: 30%;
 				border: 1.5px solid black;
-			
+				-webkit-box-shadow: 0px 2px 24px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 2px 24px 0px rgba(0,0,0,0.75);
+				box-shadow: 0px 2px 24px 0px rgba(0,0,0,0.75);
+					
 			}
 				#pic-1{
 					width: 180px;
