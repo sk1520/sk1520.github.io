@@ -132,7 +132,7 @@ function scrollTo (){// scrolling down to we offer div when button is clicked
       }
 
 
-/*----------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------*
   function prevNext(){
   $nextBtn.click(function(){
     $slideContainer.animate({'margin-left':'-='+ width},animationSpeed, function(){ 
@@ -164,15 +164,12 @@ function scrollTo (){// scrolling down to we offer div when button is clicked
     })
   })
 
-};
+};*/
 
-$(document).ready(function(){
-  $('.your-class').slick({
-   
-  });
-});
+
+
       
-    prevNext();
+    //prevNext();
   
     scrollTo(); //when the button is clicked moves the page to the content from the top web pictures.
     toggleClass();  //when the hamburger icon is clicked it toggles a class to slide in and show the menu
