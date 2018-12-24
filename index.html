@@ -1,193 +1,44 @@
-	
 <!DOCTYPE html>
 <html>
-
 <head>
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<!-- Add the new slick-theme.css if you want the default styling-->
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./portfolioCSS.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" type="text/css" href="css/styletest.css"/>
-	<link rel="stylesheet" type="text/css" href="css/mobile.css"/>
+	<title>Stanislav Kim | Portfolio</title>
 
-	
-	
-	<meta charset="UTF-8">
-
-	<!-- Add icon library -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-	<title>
-		Home
-		
-	</title>
-	<meta name="viewport" content="width=device-width, initial-scale=.5, maximum-scale=1">
 </head>
 <body>
+	<div class="container">
+		<nav class="nav justify-content-end navbar-custom navbar-expand-lg">
+			<a class="nav-link text-dark" href="">Projects</a>
+			<a class="nav-link text-dark" href="">Contact</a>
+			<a class="nav-link text-dark" href="">About Me</a>
+		</nav>
 
 
-	<!-- ***********************************  NAVIGATION BAR   ********************************************************************************************************-->
-
-	<div id="wrapper">
-		<div class= "nav-bar"> <!-- navigation bar container-->
-
-			
-			<div class="img-logo "> <!-- company logo container -->
-				<a href="https://sk1520.github.io/">
-					<span class="logo"></span>
-
-					<!--<img id="logo" src="" alt="Saulo Napkin logo">-->
-				</a>
-			</div><!-- ending of company logo container -->
 
 
-			<div class="container"> <!-- container of navigation bar menu and mobile menu-->
-
-				<div class= "menu"> <!-- Menu  in the navigation bar -->
-					<ul class="menu-buttons">
-						<li>  <a href="https://sk1520.github.io"> Home</a>     </li>
-						<li>  <a href="menu.html"> Menu</a>      </li>
-						<li>  <a href="contact.html"> Contact</a></li>
-						<li>  <a href="about.html"> About</a>    </li>
-					</ul>
-				</div> 						<!-- ending of Menu  -->
-
-
-				<div class="sidebar"><!-- creates menu for the mobile version -->
-
-					<ul class="mobile-menu-buttons">
-
-						<li>  <a href="index.html"> Home</a>     </li>
-						<li>  <a href="menu.html"> Menu</a>     </li>
-						<li>  <a href="contact.html"> Contact</a>  </li>
-						<li>  <a href="about.html"> About</a>    </li>
-						<li class="mobile-social-media">  <a href="#" class="fa fa-facebook fa-2x " target="_blank"></a> </li>
-						<li class="mobile-social-media">  <a href="https://www.instagram.com/saulonapkinfoods/?hl=end" class="fa fa-instagram fa-2x" target="_blank"></a> </li>
-						<li class="mobile-social-media">  <a href="#" class="fa fa-twitter fa-2x" target="_blank"></a> </li>
-					</ul>
-					<button class="sidebarBtn">
-
-						<span></span> <!-- blank span to later use for css to style the hamburger three lines-->
-
-
-					</button>
-
-				</div><!-- mobile menu ends here -->
-
-				<div class="social-media-icons"><!--social media icons -->
-
-					<a href="#" class="fa fa-facebook" target="_blank"></a>
-					<a href="https://www.instagram.com/saulonapkinfoods/?hl=end" class="fa fa-instagram" target="_blank"></a>
-					<a href="#" class="fa fa-twitter" target="_blank"></a>
-				</div>
-
+		<div class="jumbotron jumbotron-fluid vertical-center d-flex ">
+			<div class="container row align-self-center">
+				<h1 class="display-1">Stanislav Kim</h1>
+				<p class="lead">I am a computer science student, currently working towards my bachelors. Programming is my passion, be it creating websites or apps. Check out some of my projects below.</p>
 			</div>
-
-		</div>  	<!-- navigation bar container ends -->
-
-
-		<!-- ****************************************************************************************************************************************** -->
-
-
-
-
-
-
-		<!-- ***************************** PAGE BODY CONTENT ************************************************************************************************************** -->
-
-		<div id="content">
-			<div class="welcome-container">
-
-
-				<div>
-
-					<h1>Fresh Prepared Food Delivered to Your Local Gym</h1>
-
-
-				</div>
-
-
-				<div  class="horizontal-line">
-					<hr> 		<!-- Horizontal Line -->
-				</div>
-
-				<div id="scroll-button"><i class="fa fa-angle-double-down fa-5x angle-icon" aria-hidden="true" ></i></div>
-
-			</div>
-
-
-
-
-			<div class="list-descriptions-container" id="list-descriptions-container"> <!-- gives a small list of what the company offers -->
-				<h1 class="offer">We Offer </h1>
-
-				<div class="list-description"> 
-
-					<img class="pic-descriptions" id="pic-1" src="./pictures/healthy.png">
-					<p class="describing-what-we-do">Rich nutrient meals prepared just for your after work out recovery!</p>
-				</div>
-
-				<div class="list-description"> 
-
-					<img class="pic-descriptions" id="pic-2" src="./pictures/farmers.jpg">
-					<p class="describing-what-we-do">Ingredients brought in from the farmers market as well as community gardens! </p></div>
-
-					<div class="list-description"> 
-
-						<img class="pic-descriptions" id="pic-3" src="./pictures/delivery.jpg">
-						<p class="describing-what-we-do"> Delivery right to your local gym so you can recover as soon as possible </p>
-
-					</div>
-
-
-				</div><!-- small list of company does ends here-->
-
-
-				<div class="what-you-get-container">
-
-
-
-
-				</div>
-
-
-				<!--	<div class="par-image-container">--> <!-- makes a image slider to show of some prepared foods-->
-		<div class="image-container">
-			<div><img  src="./pictures/food-image-1.jpg" ></div>
-			<div><img  src="./pictures/food-image-2.jpg" ></div>
-			<div><img  src="./pictures/food-image-3.jpg" ></div>
-			<div><img  src="./pictures/food-image-4.jpg" ></div>
-			<div><img  src="./pictures/food-image-5.jpg" ></div>
-
-		</div><!--    </div>--><!-- image slider ends here-->
-
-
-		</div><!-- content ends here-->
-
-		<!-- FOOTER -->
-
-		<div class="footer-container">
-
-			<footer id="footer">
-				<p>Saulonapkinfoods@gmail.com | 888-888-8888</p>
-			</footer>
-
 		</div>
 
+		<div id="section-about-me" class="col-xs-12">
+			<h1>About Me</h1>
+			<p>My goal after completing my degree is to become a software engineer or a web developer</p>
+		</div>
+
+
+
+
+
 	</div>
-
-<!--<script src="codingTest.js"></script>
-<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-<script src='js/main.js'></script>-->
-<script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="javascript/codingTest.js"></script>
-<script type="text/javascript" src="javascript/slick.min.js"></script>
-<script type="text/javascript" src="javascript/slider.js"></script>
-
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-
-
