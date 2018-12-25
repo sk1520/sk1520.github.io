@@ -3,13 +3,14 @@ body,html{
 	scroll-behavior: smooth;
 }
 p{
-	font-size: 1.5vw;
+	font-size: 1.5rem;
 }
 .container{
 	width:100%;
 }
+
 nav > a {
-	font-size: 2vw;
+	font-size: 2rem;
 	position: relative;
 	text-decoration: none;
 }
@@ -43,13 +44,23 @@ nav > a:hover:before {
 }*/
 .jumbotron{
 	background-color:transparent;
-	margin-top: 20vh;
+	margin-top: 21vh;
 }
 
 .lead{
-	font-size: 1.5vw;
+	font-size: 1.5rem;
 }
 
 #section-about-me{
 	margin-top:25vh;
+}
+
+#section-android-project{
+	margin-top: 75vh;
+	margin-bottom: 65vh;
+}
+
+#section-android-project img{
+	width: 300px;
+	height: 400px;
 }
