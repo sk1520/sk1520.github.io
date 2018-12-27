@@ -60,8 +60,7 @@ nav > a:hover:before {
 }
 
 #section-android-project{
-	margin-top: 30vh;
-	margin-bottom: 65vh;
+
 }
 
 #section-android-project img{
@@ -71,9 +70,7 @@ nav > a:hover:before {
 }
 
 .project{
-	height: 500px;
-	background-color: ;
-	overflow: hidden;
+		margin-top: 30vh;
 }
 .features-list{
 	list-style: none;
