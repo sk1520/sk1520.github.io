@@ -23,7 +23,7 @@
 	p{
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
-		font-size: 20px;	
+		font-size: 14px;	
 	}
 	ul{
 		padding-left: 1vh;
@@ -31,7 +31,7 @@
 	}
 	ul li{
 		font-family: 'Open Sans', sans-serif;
-		font-size: 16px !important;
+		font-size: 12px !important;
 	}
 	div .btn{
 		margin-left:0 !important;
