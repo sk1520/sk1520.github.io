@@ -1,0 +1,67 @@
+@media screen and (max-width: 700px){ 	/*    sets to activate the css when screen is equal to or less than the pixels set                                     */
+	
+	body{
+		font-family: 'Open Sans', sans-serif;
+	}
+	.jumbotron{
+		position: relative;
+		background-color:transparent;
+		font-size: 2rem !important;
+		margin-top: 25vh;
+		margin-bottom: 40vh;
+	}
+	.display-1{
+		font-size: 40px;
+		font-weight: bold
+	}
+
+
+	html{
+		font-size: 15px;
+	}
+
+	p{
+		font-family: 'Open Sans', sans-serif;
+		text-align: left;
+		font-size: 20px;	
+	}
+	ul{
+		padding-left: 1vh;
+
+	}
+	ul li{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px !important;
+	}
+	div .btn{
+		margin-left:0 !important;
+		margin-right: 0 !important;
+		margin-top: 1vh;
+		width: 70%;
+	}
+
+	.contact-underline{
+		width: 55%;
+	}
+	.contact-links{
+		width: 100%;
+		text-align: center;
+		width: 70% !important;
+		margin-top: 3vh;
+		/*border:1px solid black;*/
+
+	}
+	.contact-link{
+		margin: 0;
+		color: #343a40!important;
+		display: initial;
+		position: relative;
+		font-size: 1.5rem;
+	}
+	.contact-links:after{
+		content: "";
+		color: #525f7f;
+		margin: 0 ;
+	}
+
+}
