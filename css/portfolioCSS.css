@@ -111,6 +111,20 @@ a.text-dark:focus, a.text-dark:hover, .nav-link:hover {
 	font-size: 1.09rem;
 	margin-top: 5px;
 }
+.tech-used-container{
+	margin-bottom: 2vh;
+}
+.tech-used{
+	padding:0 5px;
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+	border:2px solid #c59696;
+	margin: 5px;
+	text-align: center;
+	font-size: 1.2rem;
+
+}
 .contact-underline{
 	margin:auto;
 	font-size: 2.5rem;
