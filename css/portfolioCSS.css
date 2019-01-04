@@ -5,10 +5,14 @@ body,html{
 	font-family: 'Roboto', sans-serif;
 	/*overflow-x: hidden;*/
 }
+
 ul{ list-style-type: none; }
 p{
 	font-size: 1.5rem;
 	font-family: 'Roboto', sans-serif;
+}
+p,li{
+	line-height: 1.6;
 }
 h1{
 	font-weight: bold;

@@ -2,6 +2,7 @@
 	
 	body{
 		font-family: 'Open Sans', sans-serif;
+		
 	}
 	.jumbotron{
 		position: relative;
@@ -23,7 +24,11 @@
 	p{
 		font-family: 'Open Sans', sans-serif;
 		text-align: left;
-		font-size: 17px;	
+		font-size: 17px;
+		
+	}
+	p,li{
+		line-height: 2;	
 	}
 	ul{
 		padding-left: 1vh;
@@ -31,7 +36,7 @@
 	}
 	ul li{
 		font-family: 'Open Sans', sans-serif;
-		font-size: 15px !important;
+		
 	}
 	div .btn{
 		margin-left:0 !important;
