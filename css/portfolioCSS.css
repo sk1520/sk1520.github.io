@@ -151,7 +151,7 @@ a.text-dark:focus, a.text-dark:hover, .nav-link:hover {
 	color: #525f7f;
 	margin: 0 30px;
 }
-.contact-links:nth-child(4):after {
+.contact-links:nth-child(3):after {
 	content: "";
 	margin: 0;
 }
