@@ -79,6 +79,10 @@ a.text-dark:focus, a.text-dark:hover, .nav-link:hover {
 	margin-bottom: 40vh;
 }
 
+ .project-desc{
+	text-indent: 8%;
+	text-align: justify;
+}
 .scroll-down{
 	color: #737373;
 	-moz-animation: bounce 2s infinite; /* makes the animation last 2 seconds and loops infinetly*/
@@ -121,10 +125,22 @@ a.text-dark:focus, a.text-dark:hover, .nav-link:hover {
 .tech-used{
 	padding:0 5px;
 	border-radius: 10px 10px 10px 10px;
--moz-border-radius: 10px 10px 10px 10px;
--webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
 	border:2px solid #c59696;
 	margin: 5px;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.tech-used-alert{
+	padding:0 5px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border:2px solid red;
+	font-weight: bold;
+	margin: auto;
 	text-align: center;
 	font-size: 1.2rem;
 

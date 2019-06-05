@@ -1,5 +1,6 @@
 $(document).ready(function(){
   // Add scrollspy to <body>
+  if(navigator.userAgent.indexOf('Chrome')){
  $("a[href^='#']").on('click', function(e) {
 
    // prevent default anchor click behavior
@@ -18,5 +19,5 @@ $(document).ready(function(){
        window.location.hash = hash;
      });
 
-});
+});}
 });
